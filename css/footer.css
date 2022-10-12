@@ -8,7 +8,8 @@
     color: var(--footer-tel-color);
 }
 
-.footer__menu-item {
+.footer__menu-item,
+.footer__menu-link {
     color: var(--footer-menu-item-color);
 }
 
@@ -22,4 +23,5 @@
 
 .footer__media-link {
     color: var(--footer__media-link-color);
+    font-weight: bold;
 }
