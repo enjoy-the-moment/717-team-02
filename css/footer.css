@@ -18,6 +18,15 @@
     color: var(--footer__text-call-color);
 }
 
+.footer__text-link {
+    color: var(--union-subtitle-color);
+    text-decoration: none;
+}
+
+.footer__text-link-arrow {
+    color: var(--footer__text-call-color);
+}
+
 .footer__menu-link {
     color: var(--footer-menu-item-color);
     text-decoration: none;
