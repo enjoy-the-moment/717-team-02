@@ -8,5 +8,6 @@
 
 :root {
     font-family: 'PT Sans', sans-serif;
-    --union-paragraph-color: #958b7e;
+    --union-description-color: #958b7e;
+    --union-subtitle-color: #3c3731;
 }
