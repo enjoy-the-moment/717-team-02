@@ -1,3 +1,12 @@
 .footer {
     --footer-tel-color: #ed6435;
+    --footer-menu-item-color: #9a9898;
+}
+
+.footer__text-tel {
+    color: var(--footer-tel-color);
+}
+
+.footer__menu-item {
+    color: var(--footer-menu-item-color);
 }
