@@ -1,6 +1,7 @@
 .footer {
     --footer-tel-color: #ed6435;
     --footer-menu-item-color: #9a9898;
+    --footer__media-link-color: #958b7e;
 }
 
 .footer__text-tel {
@@ -17,4 +18,8 @@
 
 .footer__media-description {
     color: var(--union-description-color);
+}
+
+.footer__media-link {
+    color: var(--footer__media-link-color);
 }
