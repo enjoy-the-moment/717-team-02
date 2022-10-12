@@ -10,3 +10,7 @@
 .footer__menu-item {
     color: var(--footer-menu-item-color);
 }
+
+.footer__nav-subtitle {
+    color: var(--union-subtitle-color)
+}
