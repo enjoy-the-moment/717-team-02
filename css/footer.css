@@ -2,10 +2,20 @@
     --footer-tel-color: #ed6435;
     --footer-menu-item-color: #9a9898;
     --footer__media-link-color: #958b7e;
+    --footer__text-call-color: #45c1c7;
 }
 
 .footer__text-tel {
     color: var(--footer-tel-color);
+    text-decoration: none;
+}
+
+.footer__text-description {
+    color: var(--union-description-color);
+}
+
+.footer__text-call {
+    color: var(--footer__text-call-color);
 }
 
 .footer__menu-link {
