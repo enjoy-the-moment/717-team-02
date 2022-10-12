@@ -8,9 +8,9 @@
     color: var(--footer-tel-color);
 }
 
-.footer__menu-item,
 .footer__menu-link {
     color: var(--footer-menu-item-color);
+    text-decoration: none;
 }
 
 .footer__nav-subtitle {
