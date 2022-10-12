@@ -12,5 +12,9 @@
 }
 
 .footer__nav-subtitle {
-    color: var(--union-subtitle-color)
+    color: var(--union-subtitle-color);
+}
+
+.footer__media-description {
+    color: var(--union-description-color);
 }
