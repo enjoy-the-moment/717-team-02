@@ -1,0 +1,43 @@
+.care {
+    background-color: var(--union-description-color);
+    padding: 0 24px;
+    color: rgb(60, 55, 49);
+    
+}
+
+.care__image-container {
+    padding-top: 90px;
+    padding-bottom: 35px;
+}
+
+.care__title {
+    font-family: "Baloo 2", cursive;
+    font-size: 30px;
+    font-weight: 700px;
+    line-height: 36px;
+}
+
+.care__logo-container {
+    padding-top: 5%;
+}
+
+.care__first-paragraph {
+    padding-top: 5%;
+    font-size: 19px;
+    font-weight: 400px;
+    color:rgb(149, 139, 126);
+}
+
+.care__second-paragraph {
+    padding-top: 10%;
+    font-size: 17px;
+    font-weight: 400px;
+    color:rgb(142, 142, 142);
+}
+
+.care__list {
+    list-style-image: url(../img/dog_pow.svg);
+}
+
+@media (min-width: 320px) {
+}
