@@ -18,15 +18,37 @@
     padding-left: 1.5rem;
     font-size: 0.9rem;
     font-weight: bold;
+    margin-bottom: 2em;
 }
 
 .promotion__tagline {
-    font-size: 7rem;
+    font-family: 'Baloo 2';
+    font-size: 4rem;
     font-weight: bold;
+    max-width: 40%;
+    line-height: 1;
     vertical-align: baseline;
     text-align: left;
-    font-style: 'Baloo 2' bold;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    }
+
+.promotion__description {
+    max-width: 40%;
+    line-height: 1;
+    vertical-align: baseline;
+    text-align: left;
+    padding-left: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 1.5rem;
+    }
+
+.promotion__description__discount {
+    font-size: 1.1em;
+    color: red;
+    vertical-align: baseline;
 }
+
 .promotion__countdown {
     display: flex;
     justify-content: left;

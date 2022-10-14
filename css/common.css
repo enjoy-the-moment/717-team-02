@@ -9,6 +9,7 @@
 
 :root {
     font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
     --union-description-color: #faf4f2;
     --union-subtitle-color: #ffffff;
     --button-text: #45c1c7;
