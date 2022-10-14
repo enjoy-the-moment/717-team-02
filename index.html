@@ -130,7 +130,7 @@
                 <img src="img/cat_&_parrot.png" alt="cat_&_parrot" width="272">
             </div>
             <div class="care__description">
-                <h2 id="about_species">We Care About Your Pets And Their Well-Being</h2>
+                <h2 class="care__title">We Care About Your Pets And Their Well-Being</h2>
                 <div class="care__logo-container">
                     <img src="img/bone_logo.svg" width="75" alt="Bone">
                 </div>
@@ -140,7 +140,6 @@
                     best American and European manufacturers. We are pet lovers, just like you, and pick only the
                     best and high-quality goods:</p>
                 <ul class="care__list">
-                    <!-- Change default icons, file "dog_pow"-->
                     <li class="care__list-item">hypoallergenic dry and wet food;</li>
                     <li class="care__list-item">safe and long-lasting toys;</li>
                     <li class="care__list-item">bedding, beds, and cages;</li>
@@ -149,22 +148,30 @@
                 </ul>
             </div>
             <div class="shipping">
-                <img src="img/car.svg" alt="Car" width="40">
+                <div class="shipping__img">
+                    <img src="img/car.svg" alt="Car" width="40">
+                </div>
                 <h4 class="shipping__title">Free Shipping</h4>
                 <p class="shipping__text">Free shipping on all orders.</p>
             </div>
             <div class="returns">
-                <img src="img/returns.svg" alt="Returns" width="40">
+                <div class="returns__img">
+                    <img src="img/returns.svg" alt="Returns" width="40">
+                </div>
                 <h4 class="returns__title">10-Day Returns</h4>
                 <p class="returns__text">Contact us for a return.</p>
             </div>
             <div class="payment">
-                <img src="img/payment.svg" alt="Payment" width="40">
+                <div class="payment__img">
+                    <img src="img/payment.svg" alt="Payment" width="40">
+                </div>
                 <h4 class="payment__title">Secure Payment</h4>
                 <p class="payment__text">We accept Visa and MasterCard.</p>
             </div>
             <div class="support">
-                <img src="img/support.svg" alt="Support" width="40">
+                <div class="support__img">
+                    <img src="img/support.svg" alt="Support" width="40">
+                </div>
                 <h4 class="support__title">Online Support</h4>
                 <p class="support__text">We are always here to help.</p>
             </div>
@@ -250,13 +257,17 @@
                 <p class="promo__aquariums">
                     Save 10% on Aquariums
                 </p>
-                <a href="#recommendations" class="promo_aquariums">Discover Now</a>
+                <a class="recommendations__title-link" href="#store_species">Discover Now</a>
+                <img width="250" src="img/producents/promo_background_pic/fish.png" alt="fishes"
+                    class="promo__aquariums">
             </div>
             <div class="promo__picks">
                 <p class="promo__picks-subtitle">TOYS, TREATS & LEASHES</p>
                 <p class="promo__picks-title">Best Picks for Your Pets</p>
                 <p class="promo__picks-prise">from $1.99</p>
-                <a href="#recommendations" class="promo__picks button">Learn More</a>
+                <a class="recommendations__title-button" href="#store_species">Learn More</a>
+                <img width="250" src="img/producents/promo_background_pic/petstuf.png" alt="pet_stuf"
+                    class="promo__picks">
             </div>
             <img width="60" src="img/producents/product.png" alt="aplaws">
             <img width="60" src="img/producents/product1.png" alt="tigerino">
@@ -269,49 +280,53 @@
         <!--End block (Zhurbenko Polina)-->
         <!-- Begin Our New Arrivals (Kyryllov Ivan) -->
         <section class="arrivals">
-            <h2 class="arrivals__title" id="arrivals_species">Our New Arrivals</h2>
-            <img width="50" src="img/bone_logo.svg" alt="bone">
-            <p class="arrivals__subtitle">We offer affordable and safe toys and accessories for your pets.</p>
+            <div class="arrivals__header">
+                <h2 class="arrivals__title" id="arrivals_species">Our New Arrivals</h2>
+                <img src="img/bone_logo.svg" alt="bone">
+                <p class="arrivals__subtitle">We offer affordable and safe toys and accessories for your pets.</p>
+            </div>
             <div class="arrivals__carousel">
-                <div class="arrivals__carousel-card">
-                    <img src="img/our_new_arrivals/bird_food.png" alt="food for birds">
-                    <p class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
-                            href="#">VITALIFE Crunch Sticks Treat</a></p>
+                <article class="arrivals__carousel-card">
+                    <a class="arrivals__carousel-card-link" href="#">
+                        <img src="img/our_new_arrivals/bird_food.png" alt="food for birds"></a>
+                    <h4 class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
+                            href="#">VITALIFE Crunch Sticks Treat</a></h4>
                     <P class="arrivals__carousel-card-product-price">$5,00</P>
                     <button class="arrivals__carousel-card-product-button">Add to Cart</button>
-                </div>
-                <div class="arrivals__carousel-card">
-                    <img src="img/our_new_arrivals/toy_bird.png" alt="woven toy bird">
-                    <p class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
-                            href="#">DUNA
-                            Woven Toy</a></p>
+                </article>
+                <article class="arrivals__carousel-card">
+                    <a class="arrivals__carousel-card-link" href="#">
+                        <img src="img/our_new_arrivals/toy_bird.png" alt="woven toy bird"></a>
+                    <h4 class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
+                            href="#">DUNA Woven Toy</a></h4>
                     <P class="arrivals__carousel-card-product-price">$1,50</P>
                     <button class="arrivals__carousel-card-product-button">Add to Cart</button>
-                </div>
-                <div class="arrivals__carousel-card">
-                    <img src="img/our_new_arrivals/leash.png" alt="woven leash">
-                    <p class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
-                            href="#">SERA
-                            Woven Leash</a></p>
+                </article>
+                <article class="arrivals__carousel-card">
+                    <a class="arrivals__carousel-card-link" href="#">
+                        <img src="img/our_new_arrivals/leash.png" alt="woven leash"></a>
+                    <h4 class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
+                            href="#">SERA Woven Leash</a></h4>
                     <P class="arrivals__carousel-card-product-price">$2,00</P>
                     <button class="arrivals__carousel-card-product-button">Add to Cart</button>
-                </div>
-                <div class="arrivals__carousel-card">
-                    <img src="img/our_new_arrivals/feeder_with_food.png" alt="plastic bowl">
-                    <p class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
-                            href="#">OPTY
-                            Plastic Bowl</a></p>
+                </article>
+                <article class="arrivals__carousel-card">
+                    <a class="arrivals__carousel-card-link" href="#">
+                        <img src="img/our_new_arrivals/feeder_with_food.png" alt="plastic bowl"></a>
+                    <h4 class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
+                            href="#">OPTY Plastic Bowl</a></h4>
                     <P class="arrivals__carousel-card-product-price">$3,00</P>
                     <button class="arrivals__carousel-card-product-button">Add to Cart</button>
-                </div>
-                <div class="arrivals__carousel-card">
-                    <img width="230" src="img/our_new_arrivals/toy_butterfly.png" alt="toy with butterfly for animals">
-                    <p class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
-                            href="#">EGO
-                            Butterfly Toy</a></p>
+                </article>
+                <article class="arrivals__carousel-card">
+                    <a class="arrivals__carousel-card-link" href="#">
+                        <img width="220" src="img/our_new_arrivals/toy_butterfly.png"
+                            alt="toy with butterfly for animals"></a>
+                    <h4 class="arrivals__carousel-card-product"><a class="arrivals__carousel-card-product-link"
+                            href="#">EGO Butterfly Toy</a></h4>
                     <P class="arrivals__carousel-card-product-price">$8,00</P>
                     <button class="arrivals__carousel-card-product-button">Add to Cart</button>
-                </div>
+                </article>
             </div>
         </section>
         <!-- End Our New Arrivals (Kyryllov Ivan) -->
