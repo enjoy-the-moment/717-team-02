@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Belgrano&family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +9,14 @@
 
 :root {
     font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
     --union-description-color: #faf4f2;
     --union-subtitle-color: #ffffff;
+    --button-text: #45c1c7;
+    
+}
+
+main {
+    max-width: 980px;
+    margin: auto;
 }

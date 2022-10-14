@@ -1,0 +1,63 @@
+.promotion {
+   max-width: 980px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-image: url(../img/promotion/promotion.png);
+   background-size: cover;
+   background-position: 50% 50%;
+   width: 100%;
+   min-height: 600px;
+   padding-top: 117px;
+   padding-bottom: 120px;
+      
+}
+
+.promotion__title {
+    color: var(--button-text);
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.promotion__tagline {
+    font-family: 'Baloo 2';
+    font-size: 4rem;
+    font-weight: bold;
+    max-width: 40%;
+    line-height: 1;
+    vertical-align: baseline;
+    text-align: left;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    }
+
+.promotion__description {
+    max-width: 40%;
+    line-height: 1;
+    vertical-align: baseline;
+    text-align: left;
+    padding-left: 1.5rem;
+    line-height: 1.5em;
+    margin-bottom: 1.5rem;
+    }
+
+.promotion__description__discount {
+    font-size: 1.1em;
+    color: red;
+    vertical-align: baseline;
+}
+
+.promotion__countdown {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    margin: 0 1em;
+}
+
+li {
+    border: 0.1em solid black;
+    margin: 0 1.5em;
+}
