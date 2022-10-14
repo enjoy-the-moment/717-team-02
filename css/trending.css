@@ -1,0 +1,164 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.trending {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 90px 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .trending {
+    margin: 100px 0 105px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .trending {
+    margin: 110px 0 120px 0;
+  }
+}
+
+.trending__top {
+  max-width: 580px;
+}
+
+.trending__bone {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.trending__title {
+  font-family: "Baloo 2", cursive;
+  color: #3c3731;
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+.trending__top>img {
+  margin-top: 25px;
+  margin: auto;
+}
+
+.trending__subtitle {
+  font-family: "PT sans", sans-serif;
+  font-size: 1.1875rem;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .trending__title {
+    font-size: 2.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .trending__title {
+    font-size: 3.125rem;
+  }
+}
+
+.trending__cards {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.trending__card-item {
+  max-width: 100%;
+  flex: 1 0 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 766px) {
+  .trending__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px
+  }
+}
+
+@media (min-width: 990px) {
+  .trending__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px
+  }
+} 
+
+.trending__img {
+  width: 100%;
+}
+
+.trending__name {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.trending__link-name {
+  text-decoration: none;
+  color: #958b7e;
+}
+
+.trending__link-name:hover {
+  text-decoration: underline;
+}
+
+.trending__price {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #ed6435;
+}
+
+.trending__card-btn {
+  width: 144px;
+  height: 48px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.0313rem;
+  font-weight: 700;
+  color: #45c1c7;
+  border: none;
+  border-radius: 25px;
+  background-color: #b2e7e9;
+  cursor: pointer;
+
+  margin-top: 24px;
+}
+
+.trending__card-btn:hover {
+  background-color: #FFE6D4;
+  color: #ED6435;
+  transition: all .2s ease;
+}
+
+.trending__arrow-left,
+.trending__arrow-right {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.trending__arrow-left {
+  top: 50%;
+  left: 0;
+}
+
+.trending__arrow-right {
+  top: 50%;
+  right: 0;
+}
