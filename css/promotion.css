@@ -1,0 +1,41 @@
+.promotion {
+   max-width: 980px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background-image: url(../img/promotion/promotion.png);
+   background-size: cover;
+   background-position: 50% 50%;
+   width: 100%;
+   min-height: 600px;
+   padding-top: 117px;
+   padding-bottom: 120px;
+      
+}
+
+.promotion__title {
+    color: var(--button-text);
+    padding-left: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.promotion__tagline {
+    font-size: 7rem;
+    font-weight: bold;
+    vertical-align: baseline;
+    text-align: left;
+    font-style: 'Baloo 2' bold;
+}
+.promotion__countdown {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+    margin: 0 1em;
+}
+
+li {
+    border: 0.1em solid black;
+    margin: 0 1.5em;
+}
