@@ -50,14 +50,29 @@
 }
 
 .promotion__countdown {
-    display: flex;
-    justify-content: left;
-    align-items: center;
+    display: flex;   
     list-style: none;
-    margin: 0 1em;
+    margin-bottom: 1.5rem;
+    justify-content: left;
 }
 
 li {
-    border: 0.1em solid black;
-    margin: 0 1.5em;
+    border: 0.1em solid var(--button-text);
+    margin:  1.5em;
+    padding: auto;
+    border-radius: 0.5em;
+    min-height: 3rem;
+    min-width: 4rem;
+    text-align: center;
+    vertical-align: baseline;
+    font-size: 0.7em;
+    font-weight: bold;
 }
+
+.button {   
+    margin-left: 1.5rem;
+}
+.promotion__shop-link button {
+    vertical-align: baseline;
+}
+
