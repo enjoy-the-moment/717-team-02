@@ -5,6 +5,8 @@
     --btn-bg-hover-color: #ffe6d4;
     --btn-text-color: #45c1c7;
     --btn-bg-text-color: #b2e7e9;
+    --btn-left-right-bg-color: #3c3739;
+    --btn-left-right-bg-color-hover: #000;
     width: 100%;
     max-width: 1024px;
     margin: auto;
@@ -88,6 +90,8 @@
 
 .arrivals__carousel-card-link>img {
     width: 100%;
+    margin-left: 2px;
+    margin-right: 90px;
 }
 
 
@@ -110,22 +114,6 @@
 
 }
 
-.arrivals__carousel-btn-left,
-.arrivals__carousel-btn-right {
-    position: absolute;
-
-
-}
-
-.arrivals__carousel-btn-left {
-
-    left: 0;
-}
-
-.arrivals__carousel-btn-right {
-    right: 0;
-}
-
 .arrivals__carousel-card-product-button {
     width: 150px;
     height: 50px;
@@ -143,4 +131,46 @@
     background-color: var(--btn-bg-hover-color);
     transition: color .4s ease-in;
 
+}
+
+.arrivals__carousel-btn-left,
+.arrivals__carousel-btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: var(--btn-left-right-bg-color);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.arrivals__carousel-btn-left:hover,
+.arrivals__carousel-btn-right:hover {
+    background-color: var(--btn-left-right-bg-color-hover);
+}
+
+@media (min-width: 990px) {
+
+    .arrivals__carousel-btn-left,
+    .arrivals__carousel-btn-right {
+        background-color: transparent;
+    }
+
+    .arrivals__carousel-btn-left:hover,
+    .arrivals__carousel-btn-right:hover {
+        background-color: transparent;
+    }
+}
+
+.arrivals__carousel-btn-left {
+
+    left: 0;
+}
+
+.arrivals__carousel-btn-right {
+    right: 0;
 }
