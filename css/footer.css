@@ -30,6 +30,12 @@
 .footer__menu-link {
     color: var(--footer-menu-item-color);
     text-decoration: none;
+    display: block;
+}
+
+.footer__menu-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer__nav-subtitle {
@@ -43,4 +49,11 @@
 .footer__media-link {
     color: var(--footer__media-link-color);
     font-weight: bold;
+}
+
+@media (min-width: 500px) {
+    .footer__last-line-elements,
+    .footer__nav {
+        display: flex;
+    }
 }
