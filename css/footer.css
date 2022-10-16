@@ -38,9 +38,6 @@
     font-weight: bold;
 }
 
-.footer__nav-subtitle {
-    color: var(--union-subtitle-color);
-}
 
 .footer__media-description {
     color: var(--union-description-color);
@@ -56,4 +53,16 @@
     .footer__nav {
         display: flex;
     }
+}
+
+.footer__nav-firstmenu {
+    border: solid 2px black;
+    border-radius: 13px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer__nav-subtitle {
+    color: var(--union-subtitle-color);
+    text-align: center;
 }
