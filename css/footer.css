@@ -44,3 +44,10 @@
     color: var(--footer__media-link-color);
     font-weight: bold;
 }
+
+.footer__media,
+.footer__nav-firstmenu,
+.footer__nav-secondmenu,
+.footer__nav-thirdmenu {
+    display: flex;
+}
