@@ -1,0 +1,11 @@
+.promo {
+    background-color: var(--union-description-color);
+}
+.promo__background{
+    background-color: rgb(250, 244, 242);
+    font-weight: 400;
+}
+ .promo__aquariums-text{
+    font-family: "Baloo 2", cursive;
+    color: rgb(60, 55, 49);
+ }
