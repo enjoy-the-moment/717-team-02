@@ -38,11 +38,6 @@
     font-weight: bold;
 }
 
-
-.footer__media-description {
-    color: var(--union-description-color);
-}
-
 .footer__media-link {
     color: var(--footer__media-link-color);
     font-weight: bold;
@@ -50,7 +45,8 @@
 
 .footer__nav-firstmenu,
 .footer__nav-secondmenu,
-.footer__nav-thirdmenu {
+.footer__nav-thirdmenu,
+.footer__nav-zeromenu {
     margin: 5px;
     padding: 5px;
 }
@@ -76,4 +72,18 @@
 .footer__menu-link {
     display: block;
     text-align: center;
+}
+
+.footer__media-image {
+    max-width: 193px;
+    max-height: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__media-description {
+    text-align: center;
+    color: var(--union-description-color);
+    margin: 1rem;
 }
