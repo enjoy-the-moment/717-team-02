@@ -30,6 +30,12 @@
 .footer__menu-link {
     color: var(--footer-menu-item-color);
     text-decoration: none;
+    display: block;
+}
+
+.footer__menu-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer__nav-subtitle {
