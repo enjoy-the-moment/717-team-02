@@ -55,14 +55,26 @@
     }
 }
 
-.footer__nav-firstmenu {
-    border: solid 2px black;
-    border-radius: 13px;
+.footer__nav-firstmenu,
+.footer__nav-secondmenu,
+.footer__nav-thirdmenu {
     margin: 5px;
     padding: 5px;
 }
 
 .footer__nav-subtitle {
     color: var(--union-subtitle-color);
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer__nav-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__menu-link {
+    display: block;
     text-align: center;
 }
