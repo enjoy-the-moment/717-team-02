@@ -1,14 +1,19 @@
 
-    .promo__background{
-    background-color: rgb(250, 244, 242);
-    font-weight: 400;
+    .promo__first-block{
+        background-color: rgb(250, 244, 242);
     }
-     .promo__aquariums-text{
-    font-family: "Baloo 2", cursive;
-    font-size: 30px;
-    color: rgb(60, 55, 49);
-    line-height: 36px;
-    text-align: center;
+    .promo__flex-container{
+        display: flex;
+    }
+    .promo__aquariums{
+        display: block;
+        text-align: center;
+    }
+    .promo__aquariums-text{
+        font-family: "Baloo 2", cursive;
+        font-weight: 700;
+        font-size: 30px;
+        color: rgb(60, 55, 49);
     }
     .recommendations__title-link{
         font-size: 17px;
@@ -18,5 +23,6 @@
         margin: 25;
     }
     .promo__aquariums-background{
-    padding: 90px;
+        padding-top: 90px;
+        padding-bottom: 30px;
     }
