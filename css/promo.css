@@ -4,6 +4,8 @@
     }
     .promo__flex-container{
         display: flex;
+        padding-top: 90px;
+        padding-bottom: 30px;
     }
     .promo__aquariums{
         display: block;
@@ -25,4 +27,6 @@
     .promo__aquariums-background{
         padding-top: 90px;
         padding-bottom: 30px;
+    }
+    .promo__fish-background{
     }
