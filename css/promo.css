@@ -1,11 +1,22 @@
-.promo {
-    background-color: var(--union-description-color);
-}
-.promo__background{
+
+    .promo__background{
     background-color: rgb(250, 244, 242);
     font-weight: 400;
-}
- .promo__aquariums-text{
+    }
+     .promo__aquariums-text{
     font-family: "Baloo 2", cursive;
+    font-size: 30px;
     color: rgb(60, 55, 49);
- }
+    line-height: 36px;
+    text-align: center;
+    }
+    .recommendations__title-link{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27.2px;
+        color: #232323;
+        margin: 25;
+    }
+    .promo__aquariums-background{
+    padding: 90px;
+    }
