@@ -48,18 +48,17 @@
     font-weight: bold;
 }
 
-@media (min-width: 500px) {
-    .footer__last-line-elements,
-    .footer__nav {
-        display: flex;
-    }
-}
-
 .footer__nav-firstmenu,
 .footer__nav-secondmenu,
 .footer__nav-thirdmenu {
     margin: 5px;
     padding: 5px;
+}
+
+@media (min-width: 500px) {
+    .footer__nav {
+        display: flex;
+    }
 }
 
 .footer__nav-subtitle {
