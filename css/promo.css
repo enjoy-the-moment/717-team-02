@@ -112,12 +112,12 @@
               
                 color: #ed6435;
             }
-            .button{
+            .promo__button{
                 font-family: 'PT Sans', sans-serif;
                 font-size: 16.5px;
                 font-weight: 700;
-                border-bottom-color: #ed6435;
+                background-color: transparent;
+                color: #ed6435;
                 cursor: pointer;
                 margin-top: 35px;
             }
-            
