@@ -82,7 +82,9 @@
             <p class="species__subtitle">Best picks for your beloved companions only in Happy Paw.</p>
             <div class="species__carousel">
                 <article class="species_carousel-item">
-                    <img width="70" src="img/rabbit_species.png" alt="Rabbit" class="species__carousel-item-image">
+                    <div class="species__image-container">
+                        <img width="70" src="img/rabbit_species.png" alt="Rabbit" class="species__carousel-item-image">
+                    </div>
                     <h3 class="species__carousel-item-title">For Rabbits<span>→</span></h3>
                     <p class="species__carousel-item-explanation">Food • Treats • Hay • Cages • Litter & Bedding •
                         Harnesses
@@ -1154,17 +1156,23 @@
     <!-- Start - footer - Illia Holovko -->
     <footer>
         <div class="footer__text">
-            <p class="footer__text-call">CALL US</p>
-            <a class="footer__text-tel" href="tel:+12345678900">+1 234 567 89 00</a>
-            <p class="footer__text-description">Subscribe to our newsletter and be aware of all of our new products,
-                discounts, and hot promotions.</p>
-            <a class="footer__text-link" href="#trending-product">Sale Week<span
-                    class="footer__text-link-arrow">→</span></a>
+            <div class="footer__upmenu-call">
+                <p class="footer__text-call">CALL US</p>
+                <a class="footer__text-tel" href="tel:+12345678900">+1 234 567 89 00</a>
+            </div>
+            <div class="footer__upmenu-sale">
+                <p class="footer__text-description">Subscribe to our newsletter and be aware of all of our new products,
+                    discounts, and hot promotions.</p>
+                <a class="footer__text-link" href="#trending-product">Sale Week
+                    <span class="footer__text-link-arrow">→</span></a>
+            </div>
+            <div class="footer__upmenu-form">
+                <form class="footer__email" id="contacts_species">
+                    <input class="footer__email-item" type="email" placeholder="Enter your email*" required name="email">
+                    <input class="footer__email-item footer__form-button" type="button" value="Submit">
+                </form>
+            </div>
         </div>
-        <form class="footer__email" id="contacts_species">
-            <input class="footer__email-item" type="email" placeholder="Enter your email*" required name="email">
-            <input class="footer__email-item footer__form-button" type="button" value="Submit">
-        </form>
             <nav class="footer__nav">
                 <div class="footer__nav-zeromenu">
                     <img class="footer__media-image" src="img/happy_paw.svg" alt="Happy Paw">
