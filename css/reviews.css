@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.reviews__main {
+    width: 1188px;
+    height: 887px;
+    margin:0 auto;
+    padding: 50px 0px 120px 0px;
+
+}
+
+.reviews {
+    width: 1188px;
+    height: 717px;
+    display: flex;
+    padding: 0px 40px 0px 40px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    margin: 0px;
+}
+
+.reviews__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 163px;
+}
+
+.reviews__header-title {
+    
+    height: 63px;
+     font-size: 33.5px; 
+    color: #3c3731;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Baloo 2', cursive;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.reviews__header-image {
+   font-weight: 32px;
+    height: 32px; 
+}
+
+.reviews__header-p {
+    font-size: 18px;
+    line-height: 1.4444;
+    font-family: "PT Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #958b7e;
+    text-transform: none;
+    height: 23.5px;
+}
+
+.reviews__body {
+    display: flex;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+
+.reviews__body-person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    width: 336px;
+    height: 500px;
+    border: 2px solid #ffe6d4;
+}
+
+.reviews__body-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    
+}
+
+.reviews__body-name {
+    font-size: 24px;
+    height: 38.5px;
+
+
+}
+
+.reviews__body-animal{
+    font-size: 15px;
+    height: 19.5px;
+    color: #ed6435!important;
+}
+
+.reviews__body-text {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 17px;
+    vertical-align: baseline;
+    font-style: italic;
+    color: rgb(142,142,142);
+    height: 103.59px;
+    text-align:center;
+    
+
+}
+
+.reviews__body-date {
+    font-size: 15px;
+    height: 19.5px;
+}
