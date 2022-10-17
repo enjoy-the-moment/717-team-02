@@ -24,12 +24,11 @@
         color: #ed6435!important
     }
     .recommendations__title-link{
-        font-family: 'PT Sans', sans-serif;
+        font-family: 'PT Sans', sans-serif!important;
         font-size: 17px;
         font-weight: 400;
         line-height: 27.2px;
-        color: #232323;
-        margin: 25;
+        color: #3c3731!important;
         cursor: pointer;
     }
     .recommendations__title-link-arrow{
