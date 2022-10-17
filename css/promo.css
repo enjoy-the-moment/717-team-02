@@ -17,6 +17,12 @@
         font-size: 30px;
         color: rgb(60, 55, 49);
     }
+    .promo__aquariums-text-procent{
+        font-family: "Baloo 2", cursive;
+        font-weight: 700;
+        font-size: 30px;
+        color: #ed6435!important
+    }
     .recommendations__title-link{
         font-size: 17px;
         font-weight: 400;
@@ -27,6 +33,4 @@
     .promo__aquariums-background{
         padding-top: 90px;
         padding-bottom: 30px;
-    }
-    .promo__fish-background{
     }
