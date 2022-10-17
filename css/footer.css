@@ -8,19 +8,32 @@
 .footer__text-tel {
     color: var(--footer-tel-color);
     text-decoration: none;
+    margin: 1rem;
+}
+
+.footer__text-tel:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .footer__text-description {
     color: var(--union-description-color);
+    margin: 1rem;
 }
 
 .footer__text-call {
     color: var(--footer__text-call-color);
+    margin: 1rem;
 }
 
 .footer__text-link {
     color: var(--union-subtitle-color);
     text-decoration: none;
+    margin: 1rem;
+}
+
+.footer__text-link:hover {
+    text-decoration: underline;
 }
 
 .footer__text-link-arrow {
@@ -36,6 +49,14 @@
 .footer__menu-link:hover {
     text-decoration: underline;
     font-weight: bold;
+}
+
+.footer__email-item {
+    display: block;
+    width: 90%;
+    border-radius: 13px;
+    padding: 10px 20px;
+    margin: 1rem;
 }
 
 .footer__media-link {
