@@ -1,4 +1,26 @@
+.species__title {
+    font-weight: bold;
+    color: var(--union-subtitle-color);
+    font-size: 30px;
+    text-align: center;
+}
 
+.species__subtitle {
+    color: var(--union-description-color);
+    font-size: 14px;
+    text-align: center;
+}
+
+.species__bone-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.species__bone-logo {
+    max-width: 50px;
+}
 
 .species_carousel-item {
     border: solid 2px var(--carousel-border-color);
@@ -16,7 +38,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase;
     margin: 10px;
 }
 
