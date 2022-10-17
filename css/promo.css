@@ -52,7 +52,6 @@
         background-image: 
         url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
         background-size: cover, auto;
-        background-attachment: scroll;
         display: flex;
         padding-top: 31px;
         padding-right: 27px;
@@ -82,5 +81,4 @@
             .pormo__picks-background{
                 background-image: url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08fd202d4170021078c7e_optimized_1595?no);
                 background-size: cover, auto;
-                background-attachment: scroll;
             }
