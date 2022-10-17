@@ -24,13 +24,27 @@
         color: #ed6435!important
     }
     .recommendations__title-link{
+        font-family: 'PT Sans', sans-serif;
         font-size: 17px;
         font-weight: 400;
         line-height: 27.2px;
         color: #232323;
         margin: 25;
+        cursor: pointer;
     }
-    .promo__aquariums-background{
+    .recommendations__title-link-arrow{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27.2px;
+        color: #45c1c7!important;
+        cursor: pointer;
+    }
+    .promo__fish-background{
+        background-image: 
+        url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
+        background-size: cover, auto;
+        display: block;
         padding-top: 90px;
         padding-bottom: 30px;
     }
