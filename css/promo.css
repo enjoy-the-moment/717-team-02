@@ -44,7 +44,9 @@
         background-image: 
         url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
         background-size: cover, auto;
-        display: block;
+        display: flex;
         padding-top: 90px;
         padding-bottom: 30px;
+        border-image-repeat: stretch;
+        justify-content: center;
     }
