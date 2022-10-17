@@ -80,3 +80,43 @@ a{
   .cat_with_toy {
     margin-top: 100px ;
   }
+
+  /* Dry_Food */
+
+  .treats {
+    display: flex;
+   
+  }
+
+  .for_dogs{
+    display: flex; 
+    flex-direction: column;
+  }
+
+  .dog_food_beef_title{
+    display: flex;
+  }
+
+  .dog_food_chicken_title{
+    display: flex;
+  }
+
+  .dog_food_pork_title{
+    display: flex;
+  }
+
+  .cat_food_turkey_title{
+    display: flex;
+  }
+ 
+  .cat_food_tuna__salmon_title {
+    display: flex;
+  }
+
+  .kodent_food_grain_nuts_title{
+    display: flex;
+  }
+
+  .fish_food_title{
+    display: flex;
+  }
