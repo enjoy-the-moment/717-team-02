@@ -1,0 +1,33 @@
+
+
+.species_carousel-item {
+    border: solid 2px var(--carousel-border-color);
+    margin: 5px;
+    padding: 5px;
+    max-width: 325px;
+    max-height: 324px;
+}
+
+.species__carousel-item-image {
+    border-radius: 10rem;
+}
+
+.species__image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.species__carousel-item-title {
+    text-align: center;
+    margin: 1rem;
+}
+
+.species__carousel-item-explanation {
+    color: var(--union-description-color);
+    text-align: center;
+    font-size: 14px;
+    margin: 0.5rem;
+}
