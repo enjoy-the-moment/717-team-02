@@ -1,7 +1,3 @@
-.footer {
-
-}
-
 @media (min-width: 810px) {
     .footer__text {
         display: flex;
@@ -37,6 +33,13 @@
     color: var(--footer-tel-color);
     text-decoration: none;
     margin: 1rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer__text-tel:hover {
+    color: var(--footer-tel-color);
+    text-decoration: underline;
 }
 
 .footer__text-tel:hover {
@@ -53,6 +56,8 @@
 .footer__text-call {
     color: var(--footer__text-call-color);
     margin: 1rem;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .footer__text-link {
@@ -162,4 +167,14 @@
     text-decoration: none;
     background-color: var(--footer__email-link-bg-color);
     color: var(--footer__email-link-color);
+}
+
+.footer__email-link:hover {
+    background-color: var(--email-link-alt-bg-color);
+    color: var(--union-subtitle-color);
+}
+
+.footer__email-get:active {
+    border: solid 2px aqua;
+    border-style: solid;
 }
