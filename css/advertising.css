@@ -53,9 +53,15 @@
     margin: 0.5rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 1085px) {
     .species__carousel {
-        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
     }
 }
+
+
 
