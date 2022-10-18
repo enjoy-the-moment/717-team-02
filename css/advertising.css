@@ -75,5 +75,43 @@
     }
 }
 
+.advertising__food-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--advertising__subtitle-color);
+    padding: 0.5rem;
+    text-align: left;
+}
 
+.advertising__food-contents,
+.advertising__discount-contents {
+    color: var(--advertising__contents-color);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.advertising__food-link {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--advertising__link-color);
+    border-radius: 13px;
+    background-color: var(--advertising__bg-link-color);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.advertising {
+    margin: 20px;
+}
+
+.advertising__food {
+    background-image: url(../img/advertising/advertising-dog-food.jpg);
+    margin: 1rem;
+}
+
+.advertising__discount {
+    background-image: url(../img/advertising/advertising_bone.jpg);
+}
 
