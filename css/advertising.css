@@ -92,6 +92,10 @@
     text-align: center;
 }
 
+.advertising__discount-contents {
+    padding: 1.3rem;
+}
+
 .advertising__food-link {
     padding: 0.5rem;
     text-decoration: none;
@@ -100,6 +104,11 @@
     background-color: var(--advertising__bg-link-color);
     font-weight: bold;
     font-size: 14px;
+}
+
+.advertising__food-link:hover {
+    color: var(--advertising__link-alt);
+    background-color: var(--advertising__bg-link-alt);
 }
 
 .advertising {

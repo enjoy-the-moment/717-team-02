@@ -26,6 +26,8 @@
     --advertising__contents-color: #3c3731;
     --advertising__link-color: #ed6435;
     --advertising__bg-link-color: #ffe6d4;
+    --advertising__link-alt: #f05d2d;
+    --advertising__bg-link-alt: #fddfc9;
 }
 
 .container {
