@@ -15,6 +15,12 @@
     --background-color-rose: #faf4f2;
     --background-color-white: #ffffff;
     --carousel-border-color: #ffe6d4;
+    --footer__email-link-bg-color: #ffe6d4;
+    --footer-tel-color: #ed6435;
+    --footer-menu-item-color: #9a9898;
+    --footer__media-link-color: #958b7e;
+    --footer__text-call-color: #45c1c7;
+    --footer__email-link-color: #ed6435;
 }
 
 .container {
