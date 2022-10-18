@@ -1,5 +1,5 @@
 .care {
-    width: 100%;
+    display: flex;
     margin: 0 auto;
     padding: 0 24px;
     color: rgb(60, 55, 49);
@@ -7,40 +7,41 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    .care {
-        width: 320px;
-    }
     .care__image-container {
+        max-width: 320px;
         padding-top: 90px;
         padding-bottom: 35px;
+    }
+
+    .care__image-container-img {
         width: 100%;
     }
-    
+
     .care__title {
         font-family: "Baloo 2", cursive;
         font-size: 30px;
-        font-weight: 700px;
+        font-weight: 700;
         width: 100%;
     }
-    
+
     .care__logo-container {
         padding-top: 5%;
     }
-    
+
     .care__first-paragraph {
         padding-top: 5%;
         font-size: 19px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
-    
+
     .care__second-paragraph {
         padding-top: 10%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(142, 142, 142);
+        font-weight: 400;
+        color: rgb(142, 142, 142);
     }
-    
+
     .care__list {
         list-style-image: url(../img/dog_pow.svg);
     }
@@ -48,100 +49,88 @@
     .care__list-item {
         margin-top: 5%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .shipping__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .shipping__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .shipping__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .returns__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .returns__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .returns__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .payment__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .payment__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .payment__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .support__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .support__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .support__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 }
 
@@ -150,37 +139,38 @@
         display: flex;
         width: 768px;
     }
+
     .care__image-container {
         padding-top: 90px;
         padding-bottom: 35px;
         width: 545px;
     }
-    
+
     .care__title {
         font-family: "Baloo 2", cursive;
         font-size: 30px;
-        font-weight: 700px;
+        font-weight: 700;
         width: 100%;
     }
-    
+
     .care__logo-container {
         padding-top: 5%;
     }
-    
+
     .care__first-paragraph {
         padding-top: 5%;
         font-size: 19px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
-    
+
     .care__second-paragraph {
         padding-top: 10%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(142, 142, 142);
+        font-weight: 400;
+        color: rgb(142, 142, 142);
     }
-    
+
     .care__list {
         list-style-image: url(../img/dog_pow.svg);
     }
@@ -188,139 +178,127 @@
     .care__list-item {
         margin-top: 5%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .shipping__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .shipping__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .shipping__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400p;
+        color: rgb(149, 139, 126);
     }
 
     .returns__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .returns__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .returns__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .payment__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .payment__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .payment__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .support__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .support__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .support__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 }
 
 @media (min-width: 1200px) {
-    .care {
-        width: 1200px;
-    }
-
     .care__image-container {
         padding-top: 90px;
         padding-bottom: 35px;
-        width: 545px;
+        max-width: 545px;
     }
-    
+
+    .care__image-container-img {
+        width: 100%;
+    }
+
     .care__title {
         font-family: "Baloo 2", cursive;
         font-size: 30px;
-        font-weight: 700px;
+        font-weight: 700;
         width: 100%;
     }
-    
+
     .care__logo-container {
         padding-top: 5%;
     }
-    
+
     .care__first-paragraph {
         padding-top: 5%;
         font-size: 19px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
-    
+
     .care__second-paragraph {
         padding-top: 10%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(142, 142, 142);
+        font-weight: 400;
+        color: rgb(142, 142, 142);
     }
-    
+
     .care__list {
         list-style-image: url(../img/dog_pow.svg);
     }
@@ -328,99 +306,87 @@
     .care__list-item {
         margin-top: 5%;
         font-size: 17px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .shipping__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .shipping__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .shipping__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .returns__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .returns__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .returns__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .payment__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .payment__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .payment__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 
     .support__img {
         display: flex;
         float: left;
         background-color: #ffe6d4;
-        border-top-left-radius: 50%;
-        border-top-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-        border-bottom-right-radius: 50%;
+        border-radius: 50%;
     }
 
     .support__title {
         font-family: "Baloo 2", cursive;
         font-size: 22px;
-        font-weight: 700px;
+        font-weight: 700;
     }
 
     .support__text {
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
-        font-weight: 400px;
-        color:rgb(149, 139, 126);
+        font-weight: 400;
+        color: rgb(149, 139, 126);
     }
 }
