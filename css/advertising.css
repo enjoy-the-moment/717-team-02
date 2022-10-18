@@ -90,6 +90,7 @@
     font-size: 20px;
     padding: 1rem;
     text-align: center;
+    justify-content: center;
 }
 
 .advertising__discount-contents {
@@ -111,16 +112,28 @@
     background-color: var(--advertising__bg-link-alt);
 }
 
-.advertising {
-    margin: 20px;
-}
-
 .advertising__food {
     background-image: url(../img/advertising/advertising-dog-food.jpg);
-    margin: 1rem;
+    width: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    background-size: cover;
 }
 
 .advertising__discount {
     background-image: url(../img/advertising/advertising_bone.jpg);
+    width: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    background-size: contain;
 }
 
+@media (min-width: 1085px) {
+    .advertising {
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+}
