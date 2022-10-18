@@ -69,6 +69,7 @@
 
 .footer__text-link:hover {
     text-decoration: underline;
+    color: var(--union-subtitle-color);
 }
 
 .footer__text-link-arrow {
@@ -102,6 +103,10 @@
 .footer__media-link {
     color: var(--footer__media-link-color);
     font-weight: bold;
+}
+
+.footer__media-link:hover {
+    color: var(--union-subtitle-color);
 }
 
 .footer__nav {
@@ -172,9 +177,4 @@
 .footer__email-link:hover {
     background-color: var(--email-link-alt-bg-color);
     color: var(--union-subtitle-color);
-}
-
-.footer__email-get:active {
-    border: solid 2px aqua;
-    border-style: solid;
 }
