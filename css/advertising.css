@@ -63,5 +63,17 @@
     }
 }
 
+@media (min-width: 500px) and (max-width: 1085px) {
+    .species__carousel {
+        max-width: 1200px;
+        display: block;
+        padding: 10px;
+    }
+
+    .species_carousel-item {
+        margin: auto;
+    }
+}
+
 
 
