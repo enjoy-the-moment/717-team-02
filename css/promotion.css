@@ -1,5 +1,4 @@
 .promotion {
-   max-width: 980px;
    display: flex;
    flex-direction: column;
    justify-content: space-around;
@@ -7,7 +6,6 @@
    background-size: cover;
    background-position: 50% 50%;
    width: 100%;
-   min-height: 600px;
    padding-top: 117px;
    padding-bottom: 120px;
       
@@ -44,7 +42,8 @@
     }
 
 .promotion__description__discount {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: bold;
     color: red;
     vertical-align: baseline;
 }
@@ -56,7 +55,7 @@
     justify-content: left;
 }
 
-/* li {
+.promotion__countdown__values {
     border: 0.1em solid var(--button-text);
     margin:  1.5em;
     padding: auto;
@@ -64,15 +63,18 @@
     min-height: 3rem;
     min-width: 4rem;
     text-align: center;
-    vertical-align: baseline;
-    font-size: 0.7em;
+    font-size: 1.2em;
     font-weight: bold;
-} */
+    justify-content: space-around;
+   } 
 
 .button {   
     margin-left: 1.5rem;
+    justify-content: center;
 }
 .promotion__shop-link button {
     vertical-align: baseline;
+    justify-content: center;
+    padding: auto;
 }
 
