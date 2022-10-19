@@ -1,12 +1,12 @@
 .arrivals {
-    --text-title-color: #3c3731;
-    --text-subtitle-color: #958b7e;
-    --text-price-and-hover-btn-color: #ed6435;
-    --btn-bg-hover-color: #ffe6d4;
-    --btn-text-color: #45c1c7;
-    --btn-bg-text-color: #b2e7e9;
-    --btn-left-right-bg-color: #3c3739;
-    --btn-left-right-bg-color-hover: #000;
+    --arrivals-trending__title-color: #3c3731;
+    --arrivals-trending__sub-title-color: #958b7e;
+    --arrivals-trending__text-price-and-hover-btn-color: #ed6435;
+    --arrivals-trending__btn-bg-hover-color: #ffe6d4;
+    --arrivals-trending__btn-text-color: #45c1c7;
+    --arrivals-trending__btn-bg-text-color: #b2e7e9;
+    --arrivals-trending__btn-left-right-bg-color: #3c3739;
+    --arrivals-trending__btn-left-right-bg-color-hover: #000;
     width: 100%;
     max-width: 1200px;
     margin: auto;
@@ -26,7 +26,7 @@
 
 .arrivals__title {
     font-family: 'Baloo 2', sans-serif, cursive;
-    color: var(--text-title-color);
+    color: var(--arrivals-trending__title-color);
     font-weight: 700;
     font-size: 30px;
     margin-bottom: 15px;
@@ -44,7 +44,7 @@
 }
 
 .arrivals__subtitle {
-    color: var(--text-subtitle-color);
+    color: var(--arrivals-trending__sub-title-color);
     font-size: 17px;
     font-weight: 400;
     margin-bottom: 25px;
@@ -97,7 +97,7 @@
 
 .arrivals__carousel-card-product-link {
     text-decoration: none;
-    color: var(--text-subtitle-color);
+    color: var(--arrivals-trending__sub-title-color);
     font-size: 17px;
     font-weight: 400;
 }
@@ -107,7 +107,7 @@
 }
 
 .arrivals__carousel-card-product-price {
-    color: var(--text-price-and-hover-btn-color);
+    color: var(--arrivals-trending__text-price-and-hover-btn-color);
     font-size: 20px;
     font-weight: 800;
     margin-bottom: 10px;
@@ -121,14 +121,14 @@
     font-weight: 700;
     border: none;
     cursor: pointer;
-    color: var(--btn-text-color);
-    background-color: var(--btn-bg-text-color);
+    color: var(--arrivals-trending__btn-text-color);
+    background-color: var(--arrivals-trending__btn-bg-text-color);
     border-radius: 30px;
 }
 
 .arrivals__carousel-card-product-button:hover {
-    color: var(--text-price-and-hover-btn-color);
-    background-color: var(--btn-bg-hover-color);
+    color: var(--arrivals-trending__text-price-and-hover-btn-color);
+    background-color: var(--arrivals-trending__btn-bg-hover-color);
     transition: color .4s ease-in;
 
 }
@@ -142,7 +142,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: var(--btn-left-right-bg-color);
+    background-color: var(--arrivals-trending__btn-left-right-bg-color);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -150,7 +150,7 @@
 
 .arrivals__carousel-btn-left:hover,
 .arrivals__carousel-btn-right:hover {
-    background-color: var(--btn-left-right-bg-color-hover);
+    background-color: var(--arrivals-trending__btn-left-right-bg-color-hover);
 }
 
 @media (min-width: 990px) {
