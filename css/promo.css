@@ -2,31 +2,125 @@
     .promo__first-block{
         background-color: rgb(250, 244, 242);
     }
+
     .promo__flex-container{
         display: flex;
         padding-top: 90px;
         padding-bottom: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
+
     .promo__aquariums{
         display: block;
         text-align: center;
+        padding-top: 31px;
+        padding-right: 27px;
+        padding-bottom: 31px;
+        padding-left: 27px;
     }
+
     .promo__aquariums-text{
         font-family: "Baloo 2", cursive;
         font-weight: 700;
         font-size: 30px;
         color: rgb(60, 55, 49);
     }
+
+    .margin__block{
+        margin-top: 25px;
+    }
+
+    .promo__aquariums-text-procent{
+        font-family: "Baloo 2", cursive;
+        font-weight: 700;
+        font-size: 30px;
+        color: #ed6435
+    }
+
     .recommendations__title-link{
+        font-family: 'PT Sans', sans-serif;
         font-size: 17px;
         font-weight: 400;
         line-height: 27.2px;
-        color: #232323;
-        margin: 25;
+        color: #3c3731;
+        cursor: pointer;
     }
-    .promo__aquariums-background{
-        padding-top: 90px;
-        padding-bottom: 30px;
+
+    .recommendations__title-link-arrow{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27.2px;
+        color: #45c1c7;
+        cursor: pointer;
     }
+
     .promo__fish-background{
+        background-image: 
+        url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
+        background-size: cover, auto;
+        display: flex;
+        padding-top: 31px;
+        padding-right: 27px;
+        padding-bottom: 31px;
+        padding-left: 27px;
+        border-image-repeat: stretch;
+        justify-content: center;
+        flex-wrap: wrap;
     }
+
+
+            .promo__picks{
+                padding-top: 39px;
+                padding-right: 31px;
+                padding-bottom: 39px;
+                padding-left: 31px;
+                margin-top: 50px;
+                display: block;
+            }
+
+            .promo__picks-subtitle{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                color: rgba(35,35,35,0.45);
+              }
+
+            .promo__picks-title{
+                font-family: "Baloo 2", cursive;
+                font-size: 28px;
+                padding-top: 20px;
+            }
+
+            .promo__picks-prise{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 17px;
+                
+            }
+
+            .promo__picks-prise{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 17px;
+                font-weight: 400;
+                color: #958b7e; 
+                padding-top: 25px; 
+            }
+
+            .promo__prise{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 17px;
+                font-weight: 700;
+              
+                color: #ed6435;
+            }
+            .promo__button{
+                font-family: 'PT Sans', sans-serif;
+                font-size: 16.5px;
+                font-weight: 700;
+                cursor: pointer;
+                margin-top: 35px;
+            }
+                    .promo__second-block{
+                        background-color: rgb(250, 244, 242);
+                    }

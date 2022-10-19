@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&family=Belgrano&family=Lobster&display=swap');
 
 * {
     margin: 0;
@@ -9,15 +8,32 @@
 
 :root {
     font-family: 'PT Sans', sans-serif;
-    font-size: 19px;
     --union-description-color: #958b7e;
     --union-subtitle-color: #3c3731;
     --button-text: #45c1c7;
     --btn-bg-text-color: #b2e7e9;
-    
+    --background-color-rose: #faf4f2;
+    --background-color-white: #ffffff;
+    --carousel-border-color: #ffe6d4;
+    --footer__email-link-bg-color: #ffe6d4;
+    --email-link-alt-bg-color: #f19552;
+    --footer-tel-color: #ed6435;
+    --footer-menu-item-color: #9a9898;
+    --footer__media-link-color: #958b7e;
+    --footer__text-call-color: #45c1c7;
+    --footer__email-link-color: #f1784f;
+    --advertising__subtitle-color: #eb6435;
+    --advertising__contents-color: #3c3731;
+    --advertising__link-color: #ed6435;
+    --advertising__bg-link-color: #ffe6d4;
+    --advertising__link-alt: #f05d2d;
+    --advertising__bg-link-alt: #fddfc9;
+    --advertising__discount-pc-color: #ffe6d4;
 }
 
-main {
-    max-width: 980px;
-    margin: auto;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
+

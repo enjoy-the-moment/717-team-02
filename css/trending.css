@@ -1,10 +1,3 @@
-.container {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
 .trending {
   display: flex;
   align-items: center;
@@ -30,26 +23,21 @@
   max-width: 580px;
 }
 
-.trending__bone {
-  margin-top: 25px;
-  text-align: center;
-}
-
 .trending__title {
   font-family: "Baloo 2", cursive;
   color: #3c3731;
-  font-size: 1.875rem;
+  font-size: 30px;
   text-align: center;
 }
 
-.trending__top>img {
-  margin-top: 25px;
-  margin: auto;
+.trending__bone {
+  width: 75px;
+  margin: 10px auto 0;
 }
 
 .trending__subtitle {
   font-family: "PT sans", sans-serif;
-  font-size: 1.1875rem;
+  font-size: 19px;
   color: #958b7e;
   text-align: center;
   margin-top: 20px;
@@ -57,13 +45,13 @@
 
 @media (min-width: 768px) {
   .trending__title {
-    font-size: 2.75rem;
+    font-size: 44px;
   }
 }
 
 @media (min-width: 992px) {
   .trending__title {
-    font-size: 3.125rem;
+    font-size: 50px;
   }
 }
 
@@ -87,7 +75,11 @@
   .trending__cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px
+    gap: 30px;
+  }
+
+  .trending__card-item {
+    margin: 0;
   }
 }
 
@@ -104,7 +96,7 @@
 }
 
 .trending__name {
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 400;
   margin-top: 8px;
 }
@@ -119,7 +111,7 @@
 }
 
 .trending__price {
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 700;
   color: #ed6435;
 }
@@ -128,9 +120,9 @@
   width: 144px;
   height: 48px;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.0313rem;
+  font-size: 16.5px;
   font-weight: 700;
-  color: #45c1c7;
+  color: var(--button-text);
   border: none;
   border-radius: 25px;
   background-color: #b2e7e9;
@@ -154,11 +146,9 @@
 }
 
 .trending__arrow-left {
-  top: 50%;
   left: 0;
 }
 
 .trending__arrow-right {
-  top: 50%;
   right: 0;
 }

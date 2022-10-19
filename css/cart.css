@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .cart__main {
+    height: 888px;
+    width: 470px;
+    margin:0 auto;
+  }
+  
+  .cart__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .cart__body-header {
+    width: 470px;
+    height: 58px;
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f8fa;
+    
+  }
+  
+  .cart__body-header-title {
+    color: #3c3731;
+    font-family: "PT Sans",sans-serif;
+    font-size: 12px;
+    align-self: center;
+  }
+  
+  .cart__body-header-close-button {
+    width: 17.28px;
+    height: 17.28px;
+    align-self: center;
+    
+  }
+  
+  .cart__products {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+    width: 390px;
+     height: 668px; 
+    /* padding: 24px 40px 24px 40px; */
+    margin: 0 auto; 
+  } 
+  
+  .cart__product {
+    font-size: 10px;
+    margin-bottom: 8px;
+    padding: 24px 0px 0px 0px;
+    color: #958b7e;
+    width: 370px;
+    height: 27.2px;
+  }
+  
+  .cart__info {
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    height: 57.2px;
+    
+  }
+  
+  .cart__info-image {
+    
+      
+      
+    vertical-align:baseline;
+  }
+  
+  .cart__info-amount-label > input {
+    border-radius: 20px;
+    box-shadow: inset 0 1px 0 rgb(35 33 54 / 8%);
+    border: 1px solid #c5cbd6;
+    background: #fff;
+    height: 30px;
+    width: 75px;
+    padding: 3px 5px;
+    margin-right: 16px;
+    align-self: flex-start;
+  }
+  
+  .cart__info-price {
+      font-size: 17px;
+      line-height: 1.6;
+      font-family: PT Sans,sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      font-style: normal;
+      letter-spacing: 0;
+      color: #958b7e;
+      text-transform: none;
+      margin-left: 24px;
+      vertical-align: baseline;
+  }
+  
+  .cart__info-delete {
+  
+  }
+  
+  .cart__total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 16px;
+    height: 30px;
+  }
+  
+  .cart__total-title {
+    font-size: 18px!important;
+    font-weight: 700!important;
+      text-align: right;
+      margin-top: 8px;
+      line-height: 22px;
+      color: #958b7e;
+  }
+  
+  .cart__total-price {
+    font-size: 18px!important;
+    font-weight: 700!important;
+      text-align: right;
+      margin-top: 8px;
+      line-height: 22px;
+      color: #958b7e;
+  }
+  
+  .cart__place {
+    font-size: 12px!important;
+      font-weight: 700!important;
+      text-decoration: none;
+      font-style: normal;
+      letter-spacing: 0;
+      color: #958b7e;
+      text-transform: none;
+      line-height: 1.6;
+      font-family: "PT Sans",sans-serif;
+      margin-bottom: 16px;
+      text-align: left;
+  }
+  
+  .cart__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 478px;
+  }
+  
+  .cart__form-wrapper > label {
+    color:#958b7e;
+    font-size: 17px;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  
+  .cart__form-wrapper > input {
+    border-color: #45c1c7;
+    background-color: rgba(60, 55, 49, 0.12);
+    box-shadow: none;
+      text-overflow: ellipsis;
+      border: 0;
+      font-family: inherit;
+      font-size: 15px;
+      color: inherit;
+      line-height: 1.2;
+    padding: 11px 22px 11px 22px;
+    border-radius: 20px;
+  }
+  
+  .cart__form-wrapper-button {
+    width: 98px;
+    height: 46.5px;
+    border-width: 1px;
+    border-radius: 25px;
+    border-color: transparent;
+    border-style: solid;
+    color: #ed6435 !important;
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+    
+  }

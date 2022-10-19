@@ -1,82 +1,140 @@
-a{
-    text-decoration: none;
-}
-
 .recommendetions {
-    text-align: center;
-    max-width: 100%;
-    margin: auto;
-    padding-top: 90px;
-    padding-bottom: 90px;
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 90px;
     
 }
 
-.rec {
-    max-width: 580px;
-    text-align: center;
-}
-
 .rec_title {
-    font-family: "Baloo 2";
-    color: #3c3731;
-    font-size: 30px;
-    text-align: center;
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 15px;
 }
 
 .logo {
-    margin-top: 25px;
-    text-align: center;
+  margin-top: 25px;
+  text-align: center;
 }
 
 .rec_sub_title {
-    font-family: "PT sans", sans-serif;
-    font-size: 17px;
-    color: #958b7e;
-    text-align: center;
-    margin-top: 20px;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.pet_categories {
-    font-family: "PT sans", sans-serif;
-    font-size: 17px;
-    color: #958b7e;
-    text-align: center;
-    margin-top: 20px;
+.recommendation_card_link{
+  text-decoration: none;
+}
+
+.rec_img_link {
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_link:hover {
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
 }
 
 .rec_name {
-    color: #958b7e;
-    font-size: 17px;
-    font-weight: 400;
+  color: #958b7e;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .rec_price {
-    color: #ed6435;
-    font-size: 20px;
-    font-weight: 800;
-    margin-bottom: 10px;
+  color: #ed6435;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 .rec_button {
-    width: 144px;
-    height: 48px;
-    font-family: "PT Sans", sans-serif;
-    font-size: 17px;
-    font-weight: 700;
-    color: #45c1c7;
-    border: none;
-    border-radius: 25px;
-    background-color: #b2e7e9;
-    cursor: pointer;
-    margin-top: 24px;
+  width: 144px;
+  height: 48px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: #45c1c7;
+  border: none;
+  border-radius: 25px;
+  background-color: #b2e7e9;
+  cursor: pointer;
+  margin-top: 24px;
 }
 
 .rec_button:hover {
-    background-color: #FFE6D4;
-    color: #ED6435;
-    transition: all .2s ease;
-  }
+  background-color: #FFE6D4;
+  color: #ED6435;
+  transition: all .2s ease;
+}
 
-  .cat_with_toy {
-    margin-top: 100px ;
-  }
+.cat_with_toy {
+  margin-top: 100px ;
+}
+
+  
+
+  /* Dry_Food */
+
+.treats {
+  display: flex;
+}
+
+.for_dogs{
+  display: flex; 
+  flex-direction: column;
+}
+
+.dog_food_beef_title{
+  display: flex;
+}
+
+.dog_food_chicken_title{
+  display: flex;
+}
+
+.dog_food_pork_title{
+  display: flex;
+}
+
+.cat_food_turkey_title{
+  display: flex;
+}
+ 
+.cat_food_tuna__salmon_title {
+  display: flex;
+}
+
+.kodent_food_grain_nuts_title{
+  display: flex;
+}
+
+.fish_food_title{
+  display: flex;
+}
+
+.components{
+  color: #958b7e;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.dry_food{
+  text-align: center;
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 15px;
+}

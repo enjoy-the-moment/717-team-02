@@ -1,14 +1,45 @@
-.footer {
-    --footer-tel-color: #ed6435;
-    --footer-menu-item-color: #9a9898;
-    --footer__media-link-color: #958b7e;
-    --footer__text-call-color: #45c1c7;
+@media (min-width: 810px) {
+    .footer__text {
+        display: flex;
+        padding: 5px;
+        margin: 5px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer__nav {
+        display: flex;
+        padding: 5px;
+        margin: 5px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .footer__text,
+    .footer__nav {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+
+    .footer__upmenu-form {
+        max-width: 33%;
+    }
 }
 
 .footer__text-tel {
     color: var(--footer-tel-color);
     text-decoration: none;
     margin: 1rem;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.footer__text-tel:hover {
+    color: var(--footer-tel-color);
+    text-decoration: underline;
 }
 
 .footer__text-tel:hover {
@@ -19,21 +50,26 @@
 .footer__text-description {
     color: var(--union-description-color);
     margin: 1rem;
+    font-size: 14px;
 }
 
 .footer__text-call {
     color: var(--footer__text-call-color);
     margin: 1rem;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .footer__text-link {
     color: var(--union-subtitle-color);
     text-decoration: none;
     margin: 1rem;
+    font-size: 16px;
 }
 
 .footer__text-link:hover {
     text-decoration: underline;
+    color: var(--union-subtitle-color);
 }
 
 .footer__text-link-arrow {
@@ -69,8 +105,11 @@
     font-weight: bold;
 }
 
+.footer__media-link:hover {
+    color: var(--union-subtitle-color);
+}
+
 .footer__nav {
-    margin: 5px;
     padding: 5px;
 }
 
@@ -125,4 +164,17 @@
     align-items: center;
     justify-content: space-around;
     margin: 1rem;
+}
+
+.footer__email-link {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--footer__email-link-bg-color);
+    color: var(--footer__email-link-color);
+}
+
+.footer__email-link:hover {
+    background-color: var(--email-link-alt-bg-color);
+    color: var(--union-subtitle-color);
 }
