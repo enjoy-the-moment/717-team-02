@@ -86,8 +86,7 @@
 .advertising__food-contents {
     color: var(--advertising__contents-color);
     font-weight: bold;
-    font-size: 29px;
-    /* padding: 0.5rem; */
+    font-size: 27px;
     text-align: left;
 }
 
@@ -98,7 +97,7 @@
 .advertising__discount-contents {
     color: var(--advertising__contents-color);
     font-weight: bold;
-    font-size: 29px;
+    font-size: 23px;
     text-align: center;
 }
 
@@ -110,7 +109,7 @@
 .advertising__discount-contents-sale {
     color: var(--advertising__link-color);
     font-weight: bold;
-    font-size: 29px;
+    font-size: 23px;
 }
 
 .advertising__food-link {
@@ -157,12 +156,21 @@
     grid-template-columns: auto;
 }
 
-@media (min-width: 1085px) {
+@media (min-width: 645px) {
     .advertising {
         max-width: 1200px;
         margin: auto;
-        display: grid;
-        grid-template-columns: auto auto;
+        display: flex;
+        /* grid-template-columns: auto auto; */
+        flex-direction: row;
+        justify-content: center;
         padding: 10px;
+        max-width: 570px;
+        max-height: 348px;
+    }
+
+    .advertising div {
+        max-width: 385px;
+        max-height: 284px;
     }
 }
