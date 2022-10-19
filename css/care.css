@@ -267,6 +267,7 @@
     .care__container {
         margin: auto;
         display: block;
+        max-width: 1200px;
     }
 
     .care__main {
@@ -289,32 +290,39 @@
         font-size: 50px;
         font-weight: 700;
         width: 100%;
+        padding-top: 80px;
+        padding-left: 50px;
     }
 
     .care__logo-container {
-        padding-top: 5%;
+        padding-top: 20px;
+        padding-left: 50px;
     }
 
     .care__first-paragraph {
-        padding-top: 5%;
+        padding-top: 20px;
+        padding-left: 50px;
         font-size: 19px;
         font-weight: 400;
         color: rgb(149, 139, 126);
     }
 
     .care__second-paragraph {
-        padding-top: 10%;
+        padding-top: 20px;
+        padding-left: 50px;
         font-size: 17px;
         font-weight: 400;
         color: rgb(142, 142, 142);
     }
 
     .care__list {
+        padding-left: 70px;
         list-style-image: url(../img/dog_pow.svg);
     }
 
     .care__list-item {
-        margin-top: 5%;
+        margin-top: 20px;
+        padding-left: 15px;
         font-size: 17px;
         font-weight: 400;
         color: rgb(149, 139, 126);
@@ -325,6 +333,8 @@
         flex-direction: row;
         justify-content: space-between;
         flex: 1;
+        padding-top: 50px;
+        padding-bottom: 70px;
     }
 
     .shipping__img {
