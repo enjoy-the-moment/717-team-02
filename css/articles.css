@@ -48,7 +48,7 @@
     }
 
     .articles__img-container {
-        width: 350px;
+        width: 380px;
     }
 
     .articles__img {
@@ -56,15 +56,15 @@
     }
 
     .articles__aquarium {
-        width: 350px;
+        width: 380px;
     }
 
     .articles__feeder {
-        width: 350px;
+        width: 380px;
     }
 
     .articles__rabbit {
-        width: 350px;
+        width: 380px;
     }
 
     .articles__subtitle {
@@ -83,5 +83,12 @@
         color: rgb(149, 139, 126);
         text-align: left;
         padding-top: 10px;
+    }
+
+    .articles__read-more {
+        font-family: "PT Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        color:rgb(35, 35, 35);
     }
 }
