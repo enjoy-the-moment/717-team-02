@@ -99,12 +99,23 @@
     color: var(--advertising__contents-color);
     font-weight: bold;
     font-size: 29px;
-    padding: 1rem;
     text-align: center;
+}
+
+.adv-discount-container {
+    padding: 10px;
+    text-align: center;
+}
+
+.advertising__discount-contents-sale {
+    color: var(--advertising__link-color);
+    font-weight: bold;
+    font-size: 29px;
 }
 
 .advertising__food-link {
     padding: 0.5rem;
+    /* margin: 0.5rem; */
     text-decoration: none;
     color: var(--advertising__link-color);
     border-radius: 13px;
@@ -142,6 +153,8 @@
     margin: 1rem;
     padding: 1rem;
     background-size: cover;
+    display: grid;
+    grid-template-columns: auto;
 }
 
 @media (min-width: 1085px) {
