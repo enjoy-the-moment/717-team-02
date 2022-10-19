@@ -6,8 +6,7 @@
     background-color: var(--background-color-white);
 }
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
     .articles__container {
         margin: auto;
         display: block;
@@ -36,7 +35,7 @@
         font-weight: 400;
         text-align: center;
         padding-top: 25px;
-        color:rgb(149, 139, 126);
+        color: rgb(149, 139, 126);
     }
 
     .articles__all {
@@ -45,6 +44,7 @@
         justify-content: space-between;
         flex: 1;
         padding-top: 30px;
+        padding-bottom: 100px;
     }
 
     .articles__img-container {
@@ -89,6 +89,6 @@
         font-family: "PT Sans", sans-serif;
         font-size: 15px;
         font-weight: 700;
-        color:rgb(35, 35, 35);
+        color: rgb(35, 35, 35);
     }
 }
