@@ -315,17 +315,22 @@
         color: rgb(142, 142, 142);
     }
 
-    .care__list {
-        padding-left: 70px;
-        list-style-image: url(../img/dog_pow.svg);
+    .marker {
+        width: 20px;
     }
 
     .care__list-item {
-        margin-top: 20px;
+        display: flex;
         padding-left: 15px;
         font-size: 17px;
         font-weight: 400;
         color: rgb(149, 139, 126);
+
+    }
+
+    .care__list-item-text {
+        padding-top: 15px;
+        padding-left: 10px;
     }
 
     .care__advantages {
