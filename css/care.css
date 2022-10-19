@@ -265,6 +265,11 @@
 
 @media (min-width: 1200px) {
     .care__container {
+        margin: auto;
+        display: block;
+    }
+
+    .care__main {
         display: flex;
     }
 
@@ -316,7 +321,10 @@
     }
 
     .care__advantages {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 1;
     }
 
     .shipping__img {
