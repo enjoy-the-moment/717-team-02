@@ -38,4 +38,50 @@
         padding-top: 25px;
         color:rgb(149, 139, 126);
     }
+
+    .articles__all {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 1;
+        padding-top: 30px;
+    }
+
+    .articles__img-container {
+        width: 350px;
+    }
+
+    .articles__img {
+        width: 100%;
+    }
+
+    .articles__aquarium {
+        width: 350px;
+    }
+
+    .articles__feeder {
+        width: 350px;
+    }
+
+    .articles__rabbit {
+        width: 350px;
+    }
+
+    .articles__subtitle {
+        font-family: "Baloo 2", cursive;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(60, 55, 49);
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .articles__subtitle-description {
+        font-family: "PT Sans", sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        color: rgb(149, 139, 126);
+        text-align: left;
+        padding-top: 10px;
+    }
 }
