@@ -1,0 +1,41 @@
+.articles {
+    display: block;
+    margin: 0 auto;
+    padding: 0 24px;
+    color: rgb(60, 55, 49);
+    background-color: var(--background-color-white);
+}
+
+@media (min-width: 1200px)
+{
+    .articles__container {
+        margin: auto;
+        display: block;
+        max-width: 1200px;
+    }
+
+    .articles__title {
+        font-family: "Baloo 2", cursive;
+        font-size: 50px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 100px;
+        color: rgb(60, 55, 49);
+    }
+
+    .articles__logo-container {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        padding-top: 20px;
+    }
+
+    .articles__title-description {
+        font-family: "PT Sans", sans-serif;
+        font-size: 19px;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 25px;
+        color:rgb(149, 139, 126);
+    }
+}
