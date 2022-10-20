@@ -64,6 +64,17 @@ footer {
     height: 15px;
 }
 
+@media (min-width: 468px) {
+    .footer__nav-item img {
+        width: 45px;
+    }
+}
+
+@media (min-width: 648px) {
+    .footer__nav-item img {
+        width: 80px;
+    }
+}
 .footer__nav-subtitle {
     color: var(--text-color-header);
     font-size: 22px;
@@ -72,18 +83,20 @@ footer {
 .footer__menu {
     display: flex;
     flex-direction: column;
-    align-items:center
+    align-items: center
 }
 
 .footer__menu-item {
     margin-bottom: 10px;
 }
+
 .footer__menu-item a {
     font-size: 17px;
     font-weight: 600;
     color: var(--text-sub-title-color);
 }
-.footer__menu-item a:hover{
+
+.footer__menu-item a:hover {
     color: var(--text-color-header);
     text-decoration: underline;
 }
