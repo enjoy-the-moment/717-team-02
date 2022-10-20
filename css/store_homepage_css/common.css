@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Baloo 2', sans-serif, cursive;
+    --text-color-header: #3c3731;
+    --text-color-header-price-btn: #ed6435;
+    --text-sub-title-color: #958b7e;
+    --bg-color-btn: #ffe6d4;
+    --text-color-btn-hover: #45c1c7;
+    --bg-color-btn-hover: #b2e7e9;
+    --bg-color-header-footer: #faf4f2;    
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}

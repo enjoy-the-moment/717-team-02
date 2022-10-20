@@ -1,0 +1,17 @@
+.products__card-button {
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    color: var(--text-color-header-price-btn);
+    background-color: var(--bg-color-btn) ;
+    border-radius: 30px;
+    transition: color .4s ease-in;
+}
+
+.products__card-button:hover {
+    color: var(--text-color-btn-hover);
+    background-color: var(--bg-color-btn-hover);
+}
