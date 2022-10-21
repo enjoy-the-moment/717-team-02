@@ -1,41 +1,142 @@
+#promo{
+    background-color: var(--background-color-rose);
+}
+
+.promo__first-block{
+    margin:0 1em;
+    padding: 3em 0 2em 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 2px green solid;
+}
+
+.promo__flex-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 20em;
+    border: 2px blue solid;
+}
+
+.promo__aquariums{
+    display: flex;
+    background-image: url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
+    background-size: cover;
+    background-position: center bottom;
+    border: 2px red solid;
+    margin: 0 1em 0 1em;
+    flex-grow: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.promo__aquariums-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px red solid;
+    padding-top: 7%;
+    height: 100%; 
+}
+
+.promo__picks{
+    display: flex;
+    background-image: url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08fd202d4170021078c7e_optimized_1595?nowebp);
+    background-size: cover;
+    background-position: right center;
+    border: 2px red solid;
+    margin: 0 1em 0 1em;
+    flex-grow: 1;
+    justify-content: left;
+    align-items: center;
+}
+
 .promo__aquariums-text{
     font-family: "Baloo 2", cursive;
-    font-size: 27px;
-    font-weight: 700;
-    color: #3c3731;
-    justify-content: center;
     text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--union-subtitle-color);
 }
     .promo__aquariums-text-procent{
-    color: #ed6435;
+        color: var(--footer-tel-color)
     }
-
+.margin__block{
+    display: flex;
+    justify-content: center;
+}
 .recommendations__title-link{
     font-family: "PT Sans", sans-serif;
     font-weight: bold;
-    color: #232323;
-    text-align: center;
+    color: var(--union-subtitle-color);
+    text-decoration-line: none;
+    cursor: pointer;
+    
+}
+.recommendations__title-link:hover{
+    color: var(--footer-tel-color);
 }
     .recommendations__title-link-arrow{
-        color: #45c1c7;
+        color: var(--button-text);
     }
 
-.promo__aquariums{
-    background-image: url(..img/producents/promo_background_pic/fish.png);
-    background-size: cover;
-    min-width: 272px;
-    min-height: 226px;
-    max-width: 695.200px;
-    max-height: 190.200px;
+.promo__picks-content{
+    border: 2px orange solid;
+    justify-content: center;
+    margin: auto;
 }
-@media (min-width: 760px){
-    .promo__flex-container{
-        max-height: 339.688px;   
-    }
-    .promo__aquariums{
-        padding-top: 34px;
-        padding-bottom: 34px;
-        padding-left: 28px;
-        padding-right: 28px;
-    }
+
+.promo__picks-subtitle{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(35,35,35,0.45);
 }
+
+.promo__picks-title{
+    font-family: "Baloo 2", cursive;
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--union-subtitle-color);
+}
+
+.promo__picks-prise{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgba(35,35,35,0.45);
+}
+    .promo__prise{
+        font-weight: 700;
+        color: var(--footer-tel-color);
+    }
+
+.button{
+    width: 8em;
+    height: 3em;
+    border-radius: 25px;
+    border-color: var(--footer-tel-color);
+    border-width: 1px;
+    background-color: transparent;
+    cursor: pointer;
+}
+    .button-text{
+        font-family: 'PT Sans', sans-serif;
+        font-size: 16.5px;
+        font-weight: 700;
+        color: var(--footer-tel-color);
+        text-decoration-line: none;
+        
+    }
+
+.button:hover{
+    background-color: var(--footer-tel-color);
+}
+    .button-text:hover{
+        color: var(--background-color-white);
+    }
