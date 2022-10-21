@@ -1,23 +1,30 @@
-
-    .promo__first-block{
+   #promo{
+    padding-top: 90px;
+    padding-bottom: 30px;
+   }
+   
+   .promo__first-block{
         background-color: rgb(250, 244, 242);
     }
 
     .promo__flex-container{
-        display: flex;
-        padding-top: 90px;
-        padding-bottom: 30px;
-        padding-left: 24px;
-        padding-right: 24px;
+        
+    }
+
+    .promo__flex-container{
+        position: relative;
+        min-width: 320px;
+        z-index: 1;
     }
 
     .promo__aquariums{
+        position: absolute;
         display: block;
         text-align: center;
-        padding-top: 31px;
-        padding-right: 27px;
-        padding-bottom: 31px;
-        padding-left: 27px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
     }
 
     .promo__aquariums-text{
