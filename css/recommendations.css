@@ -7,6 +7,14 @@
     
 }
 
+.rec{
+  text-align: center;
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 15px;
+}
+
 .rec_title {
   font-family: 'Baloo 2';
   font-weight: 700;
@@ -90,6 +98,50 @@
 
 .treats {
   display: flex;
+  text-align: center;
+}
+
+.for__dogs{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.for__cats{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.other_title{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+.price_decorator{
+  height: 1px;
+  margin: 7px 0;
+  flex: 1 1;
+  background: #3c3731;
+  opacity: .2;
+}
+
+.food__price{
+  color: #ed6435;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.food__name{
+  font-family: 'Baloo 2';
+  font-weight: 700;
+  font-size: 23px;
+  margin-bottom: 15px;
 }
 
 .for_dogs{
@@ -137,4 +189,8 @@
   font-weight: 700;
   font-size: 55px;
   margin-bottom: 15px;
+}
+
+.dry_img{
+  width: 120px;
 }
