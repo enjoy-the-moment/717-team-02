@@ -23,7 +23,7 @@ function countDown () {
     //секунды
     const secondsLeft = Math.floor(diff / 1000) % 60;
 
-    //вставка значений в объекты дни, часы, минуты, секунды  и оператор добавления "0"
+    //вставка значений в объекты дни, часы, минуты, секунды  и оператор добавления "0"? чтобы всегда 2 цифры
 
     days.innerText = daysLeft < 10 ? '0' + daysLeft : daysLeft;
     hours.innerText = hoursLeft < 10 ? '0' + hoursLeft : hoursLeft;
