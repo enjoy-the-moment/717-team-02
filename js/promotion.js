@@ -2,7 +2,7 @@
 
     const days = document.querySelector('.countdown__days');
     const hours = document.querySelector('.countdown__hours');
-    const minuets = document.querySelector('.countdown__minuets');
+    const minuets = document.querySelector('.countdown__minutes');
     const seconds = document.querySelector('.countdown__seconds');
     
 function countDown () {
@@ -32,6 +32,8 @@ function countDown () {
 
 }
 
+//принудительный запуск функции при обновлении стр, чтобы избавиться от прописанных значений
+countDown();
 //вызов функции каждую секунду
 setInterval(countDown, 1000);
 
