@@ -178,3 +178,9 @@
     background-color: var(--email-link-alt-bg-color);
     color: var(--union-subtitle-color);
 }
+
+.footer__clock {
+    text-align: center;
+    color: var(--email-link-alt-bg-color);
+    font-weight: bold;
+}

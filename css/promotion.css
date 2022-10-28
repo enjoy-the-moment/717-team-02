@@ -52,8 +52,9 @@
     display: flex;   
     list-style: none;
     column-gap: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     justify-content: left;
+    line-height: 1.5rem;
 }
 
 .promotion__countdown__values {
@@ -63,18 +64,28 @@
     min-height: 2rem;
     min-width: 6rem;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    justify-content: space-around;
+    justify-content: space-between;
    } 
 
-.button {   
+   .promotion__countdown__parametr {
+    font-size: 1.5rem;
+    margin-top: 10px;
+   }
+
+   .promotion__countdown__text__signatures {
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 10px;
+    }
+
+.btn_button {   
     margin-left: 1.5rem;
     justify-content: center;
 }
-.promotion__shop-link button {
-    vertical-align: baseline;
-    justify-content: center;
-    padding: auto;
+
+.promotion__shop-link {
+    text-decoration: none;
 }
 
