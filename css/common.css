@@ -8,6 +8,8 @@
 
 :root {
     font-family: 'PT Sans', sans-serif;
+    --header__upper-line: #f2e8e4;
+    --header__nav: #6b6b6b;
     --union-description-color: #958b7e;
     --union-subtitle-color: #3c3731;
     --button-text: #45c1c7;
