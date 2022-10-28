@@ -1,4 +1,7 @@
-// IIFE 
+
 (function() {
-    const footerClockContainer = document.querySelector('.footer__clock');
+
+    const fclockContainer = document.querySelector('.footer__clock-edit');
+    fclockContainer.innerText = new Date().toLocaleTimeString();
+
 })();
