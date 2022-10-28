@@ -68,13 +68,12 @@
     justify-content: space-around;
    } 
 
-.button {   
+.btn_button {   
     margin-left: 1.5rem;
     justify-content: center;
 }
-.promotion__shop-link button {
-    vertical-align: baseline;
-    justify-content: center;
-    padding: auto;
+
+.promotion__shop-link {
+    text-decoration: none;
 }
 

@@ -1,21 +1,23 @@
- .button {
-    background-color: var(--button-text);
-    border: none;
-    color: var(--button-text);
-    cursor: pointer;
-    display: inline-block;
-    min-width: 9rem;
-    min-height: 3rem;
-    font-size: 1rem;
+.btn_button {
+    display: block;
+    width: 9rem;
+    height: 3rem;
+    font-family: "PT Sans", sans-serif;
+    font-size: 1.2rem;
     font-weight: bold;
-    margin: 0;
-    padding: 10px 10px;
     text-align: center;
-    text-decoration: none;
-    white-space: nowrap;
-    border-radius: 30px;
-}
-.button:hover {
-    background-color: var(--advertising__bg-link-color);
-    color: var(--advertising__link-color);
-}
+    line-height: 2.5em;
+    color: #45c1c7;
+    border: none;
+    border-radius: 25px;
+    background-color: #b2e7e9;
+    cursor: pointer;
+    margin-top: 24px;
+    }
+  
+  .btn_button:hover {
+    background-color: #FFE6D4;
+    color: #ED6435;
+    transition: all .2s ease;
+  }
+  
