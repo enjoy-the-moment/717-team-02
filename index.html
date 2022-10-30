@@ -1183,8 +1183,16 @@
             </div>
             <div class="footer__upmenu-form">
                 <form class="footer__email" id="contacts_species" action="https://formspree.io/f/xwkzrzyw" method="POST">
-                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email*"
+                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email (Formspree)"
                         required name="email">
+                    <button class="footer__email-link footer__email-item">Subscribe</button>
+                    <p id="contact-form-status"></p>
+                </form>
+                <form class="footer__email" id="contacts_species-nodejs" action="contact" method="POST">
+                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email (NodeJS)"
+                        required name="email">
+                    <input class="footer__email-item footer__email-get" type="text" placeholder="Enter text (NodeJS)"
+                        required name="text">
                     <button class="footer__email-link footer__email-item">Subscribe</button>
                     <p id="contact-form-status"></p>
                 </form>
@@ -1260,6 +1268,8 @@
     <script src="js/footer.js"></script>
     <script src="js/advertising-list.js"></script>
     <script src="js/advertising-carousel.js"></script>
+    <script src="nodeJS/footer/server.js"></script>
+    <script src="nodeJS/footer/contact-form-node.js"></script>
 </body>
 
 </html>
