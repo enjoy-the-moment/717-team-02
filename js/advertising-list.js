@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
     const products = [
         {
@@ -43,15 +43,15 @@
             description: "Food • Treats • Cages & Stands • Vitamins • Bowls & Feeders • Litter & Nesting • Odor Control ",
 
         },
-    ]
+    ];
 
     function renderProducts(products) {
+        
         const productsContainer = document.querySelector('.species__carousel');
         productsContainer.innerHTML = '';
-    }
 
-    for (const product of products) {
-        productsContainer.innerHTML += `
+        for (const product of products) {
+            productsContainer.innerHTML += `
         <article class="species_carousel-item">
         <div class="species__image-container">
             <img width="70" src="${product.imageUrl}" alt="Rabbit" class="species__carousel-item-image">
@@ -59,7 +59,8 @@
         <h3 class="species__carousel-item-title">${product.title}<span>→</span></h3>
         <p class="species__carousel-item-explanation">${product.description}</p>
     </article>`;
+        }
     }
-    
+    renderProducts(products);
 
 })();
