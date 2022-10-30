@@ -1,4 +1,4 @@
-(function() {
+(function () {
 
     const slides = [
         '<div class = "advertising__slide"><img src="img/advertising/rabbit_species.png" alt="For Rabbits"></div>',
@@ -14,10 +14,19 @@
     function renderSlide() {
         const slideContainer = document.querySelector('.species__carousel__slide-container');
         slideContainer.innerHTML = slides[currentSlideIdx];
+
+        if (window.innerWidth > 780) {
+            const AddTwoSlideIndex = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+            slideContainer.innerHTML += slides[AddTwoSlideIndex];
+            if (window.innerWidth > 900) {
+            const AddThirdSlideIndex = AddTwoSlideIndex + 1 >= slides.length ? 0 : AddTwoSlideIndex + 1;
+            slideContainer.innerHTML += slides[AddThirdSlideIndex];
+            }
+        }
     }
 
     function nextSlide() {
-        currentSlideIdx = currentSlideIdx + 1>= slides.length ? 0 : currentSlideIdx + 1;
+        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
         renderSlide();
     }
 
@@ -35,4 +44,5 @@
     const prevButton = document.querySelector('.species__carousel-prev');
     prevButton.addEventListener('click', prevSlide)
 
+    window.addEventListener('resize', renderSlide);
 })();
