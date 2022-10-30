@@ -32,6 +32,7 @@
 
 .species__carousel-item-image {
     border-radius: 10rem;
+    width: 70px;
 }
 
 .species__image-container {

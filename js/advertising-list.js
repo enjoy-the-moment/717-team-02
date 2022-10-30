@@ -54,7 +54,7 @@
             productsContainer.innerHTML += `
         <article class="species_carousel-item">
         <div class="species__image-container">
-            <img width="70" src="${product.imageUrl}" alt="Rabbit" class="species__carousel-item-image">
+            <img src="${product.imageUrl}" alt="Rabbit" class="species__carousel-item-image">
         </div>
         <h3 class="species__carousel-item-title">${product.title}<span>→</span></h3>
         <p class="species__carousel-item-explanation">${product.description}</p>
