@@ -1,5 +1,4 @@
-(function () {
-
+(function() {
     const slides = [
         '<div class = "advertising__slide"><img src="img/advertising/rabbit_species.png" alt="For Rabbits"></div>',
         '<div class = "advertising__slide"><img src="img/advertising/fish_species.png" alt="For Fish"></div>',
@@ -19,8 +18,8 @@
             const AddTwoSlideIndex = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += slides[AddTwoSlideIndex];
             if (window.innerWidth > 900) {
-            const AddThirdSlideIndex = AddTwoSlideIndex + 1 >= slides.length ? 0 : AddTwoSlideIndex + 1;
-            slideContainer.innerHTML += slides[AddThirdSlideIndex];
+                const AddThirdSlideIndex = AddTwoSlideIndex + 1 >= slides.length ? 0 : AddTwoSlideIndex + 1;
+                slideContainer.innerHTML += slides[AddThirdSlideIndex];
             }
         }
     }
