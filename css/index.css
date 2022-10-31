@@ -1,7 +1,8 @@
 @import url(common.css);
 @import url(controls.css);
 @import url(header.css); /* Header - Dmytro Gersymenko */
-@import url(advertising.css); /* Any products for any pets - Illia Holovko */
+@import url(advertising.css); /* Advertising (Any products for any pets) - Illia Holovko */
+@import url(advertising-carousel.css); /* Advertising (Any products for any pets) - Illia Holovko */
 @import url(care.css); /* We Care About Your Pets And Their Well-Being - Yana Kozhokar */
 @import url(trending.css); /* egin Trending Products - Bohdan Kariev */
 @import url(promo.css); /* Promo and Pets Food Brands - Zhurbenko Polina */

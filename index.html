@@ -107,7 +107,7 @@
         </div>
     </header>
     <!-- The end - Header - Bohdan Kariev -->
-    <!-- Start - Any products for any pets - Illia Holovko -->
+    <!-- Start - Advertising (Any products for any pets) - Illia Holovko -->
     <main>
         <div class="advertising">
             <div class="advertising__food">
@@ -133,63 +133,9 @@
                 <img class="species__bone-logo" src="img/bone_logo.svg" alt="Bone">
             </div>
             <p class="species__subtitle">Best picks for your beloved companions only in Happy Paw.</p>
-            <div class="species__carousel">
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/rabbit_species.png" alt="Rabbit" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Rabbits<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Treats • Hay • Cages • Litter & Bedding •
-                        Harnesses
-                        • Toys • Odor Removers • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/fish_species.png" alt="Fish" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Fish<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Feeders • Aquariums • Filters & Pumps •
-                        Cleaning
-                        • Water Care • Decor • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/hamster_species.png" alt="Hamster"
-                            class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Hamsters<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Soft & Chewy Treats • Litter • Furniture •
-                        Collars
-                        and Leashes • Bowls • Toys • Beds • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/cat_species.png" alt="Cat" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Cats<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Dry Food • Wet Food • Treats • Catnip & Grass • Litter
-                        Boxes • Bowls & Feeders • Toys • Beds • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/dog_species.png" alt="Dog" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Dogs<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Dry & Canned Food • Jerky • Chewy Treats • Bowls •
-                        Toys
-                        • Collars and Leashes • Clothes • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/parrot_species.png" alt="Parrot" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Parrots<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Treats • Cages & Stands • Vitamins • Bowls &
-                        Feeders • Litter & Nesting • Odor Control • </p>
-                </article>
-            </div>
+            <div class="species__list"></div>
         </section>
-        <!-- The end - Any products for any pets - Illia Holovko -->
+        <!-- The end - Advertising (Any products for any pets) - Illia Holovko -->
         <!-- Begin - We Care About Your Pets And Their Well-Being - Yana Kozhokar-->
         <section class="care">
             <div class="care__container">
@@ -1242,10 +1188,19 @@
                     <span class="footer__text-link-arrow">→</span></a>
             </div>
             <div class="footer__upmenu-form">
-                <form class="footer__email" id="contacts_species">
-                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email*"
+                <form class="footer__email" id="contacts_species" action="https://formspree.io/f/xwkzrzyw" method="POST">
+                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email (Formspree)"
                         required name="email">
-                    <a class="footer__email-link footer__email-item" href="#">Submit</a>
+                    <button class="footer__email-link footer__email-item">Subscribe</button>
+                    <p id="contact-form-status"></p>
+                </form>
+                <form class="footer__email" id="contacts_species-nodejs" action="contact" method="POST">
+                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email (NodeJS)"
+                        required name="email">
+                    <input class="footer__email-item footer__email-get" type="text" placeholder="Enter text (NodeJS)"
+                        required name="text">
+                    <button class="footer__email-link footer__email-item">Subscribe</button>
+                    <p id="contact-form-status"></p>
                 </form>
             </div>
         </div>
@@ -1312,12 +1267,11 @@
         </div>
     </footer>
     <!-- The end - footer - Illia Holovko -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
     <script src = "js/promotion.js"></script>
     <script src="js/footer.js"></script>
-    <script src="js/advertising.js"></script>
+    <script src="js/advertising-list.js"></script>
+    <script src="nodeJS/footer/server.js"></script>
+    <script src="nodeJS/footer/contact-form-node.js"></script>
     <script src="js/burger-menu.js"></script>
 </body>
 

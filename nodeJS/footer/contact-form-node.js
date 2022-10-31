@@ -1,22 +1,17 @@
-
-(function() {
-
-    // const fclockContainer = document.querySelector('.footer__clock');
-    // fclockContainer.innerText = new Date().toLocaleTimeString();
-    // function fupdateTime() {
-    //     fclockContainer.innerText = new Date().toLocaleTimeString();
-    // }
-
-    // setInterval(fupdateTime, 1000);
-    const form = document.querySelector("#contacts_species");
+(function () {
+    const form = document.getElementById("contacts_species-nodejs");
   
-    function handleSubmit(event) {
+    async function handleSubmit(event) {
       event.preventDefault();
       const status = document.getElementById("contact-form-status");
       fetch(event.target.action, {
         method: form.method,
-        body: new FormData(event.target),
+        body: JSON.stringify({
+            email: document.querySelector('#contacts_species-nodejs > input[type=email]:nth-child(1)').value,
+            message: document.querySelector('#contacts_species-nodejs > input[type=text]:nth-child(2)').value
+        }),
         headers: {
+          "Content-type": "application/json",
           Accept: "application/json",
         },
       })
@@ -41,7 +36,5 @@
           status.innerHTML = "Oops! There was a problem submitting your form";
         });
     }
-  
     form.addEventListener("submit", handleSubmit);
-
-})();
+  })();

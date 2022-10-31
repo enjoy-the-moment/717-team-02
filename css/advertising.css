@@ -30,8 +30,9 @@
     max-height: 324px;
 }
 
-.species__carousel-item-image {
+.species__list-item-image {
     border-radius: 10rem;
+    width: 70px;
 }
 
 .species__image-container {
@@ -41,12 +42,12 @@
     margin: 10px;
 }
 
-.species__carousel-item-title {
+.species__list-item-title {
     text-align: center;
     margin: 1rem;
 }
 
-.species__carousel-item-explanation {
+.species__list-item-explanation {
     color: var(--union-description-color);
     text-align: center;
     font-size: 14px;
@@ -54,7 +55,7 @@
 }
 
 @media (min-width: 1085px) {
-    .species__carousel {
+    .species__list {
         max-width: 1200px;
         margin: auto;
         display: grid;
@@ -64,7 +65,7 @@
 }
 
 @media (min-width: 500px) and (max-width: 1085px) {
-    .species__carousel {
+    .species__list {
         max-width: 1200px;
         display: block;
         padding: 10px;

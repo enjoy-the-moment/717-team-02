@@ -1,0 +1,12 @@
+.species__carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.species__carousel__slide-container {
+    display: flex;
+}
+
+.species__carousel__slide-container img {
+    width: 230px;
+}
