@@ -26,10 +26,13 @@ body.lock {
 }
 
 .header__top {
+    padding: 30px 0;
+}
+
+.header__top-logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0;
 }
 
 .header__logo-link {
@@ -40,10 +43,11 @@ body.lock {
     width: 24px;
     height: 30px;
     position: relative;
-    z-index:2;
+    z-index: 2;
     overflow: hidden;
     border: none;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .header__burger-line {
@@ -58,26 +62,103 @@ body.lock {
 }
 
 .header__burger-line:nth-of-type(2) {
-    top: calc(50% - 4px);
-}
-.header__burger-line:nth-of-type(3) {
-    top: calc(50% + 4px);
+    top: calc(50% - 7px);
 }
 
-.header__nav {
+.header__burger-line:nth-of-type(3) {
+    top: calc(50% + 7px);
+}
+
+.header__burger.active .header__burger-line:nth-of-type(1) {
+    transform: scale(0);
+}
+
+.header__burger.active .header__burger-line:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.header__burger.active .header__burger-line:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+.header__top-nav {
     display: none;
 }
 
-.header__nav-item {
-    list-style-type: none;
+.header__top-nav.active {
+    display: flex;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--background-color-rose);
+}
+
+.header__top-nav.active .header__nav {
+    margin-bottom: 30px;
+}
+
+.header__top-nav.active .header__nav .header__nav-list {
+    text-align: center;
+}
+
+.header__nav-link {
+    display: none;
+}
+
+.header__top-nav.active .header__nav-link {
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--header__nav);
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.header__top-nav.active .header__nav-link:hover {
+    color: var(--footer-tel-color);
+}
+
+.header__top-nav.active .header__top-info {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--footer-tel-color);
+    opacity: 1;
+}
+
+.header__top-info p:nth-child(2) {
+    margin-top: 20px;
+}
+
+.header__top-info p:nth-child(3) {
+    margin-top: 20px;
+}
+
+.header__top-info p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.header__top-info p a:hover {
+    text-decoration: underline;
+}
+
+.header__social-list {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .header__logo-img {
     width: 182px;
-}
-
-.header__social-list {
-    display: none;
 }
 
 .header__promo {
@@ -156,6 +237,10 @@ body.lock {
 }
 
 @media (min-width: 991px) {
+    body.lock {
+        overflow: visible;
+    }
+
     .header__burger {
         display: none;
     }
@@ -164,6 +249,57 @@ body.lock {
         display: block;
         padding: 10px 0;
         background-color: var(--header__upper-line);
+    }
+    .header__top-nav.active {
+        display: flex;
+        top: 0;
+        width: max-content;
+        position: relative;
+        align-items: center;
+        flex-direction: row;
+        background-color: transparent;
+    }
+
+    .header__top-nav.active .header__nav {
+        margin: 0;
+    }
+
+    .header__nav-link {
+        display: flex;
+    }
+
+    .header__top-nav.active .header__nav-link {
+        display: inline-block;
+        font-size: 17px;
+        font-weight: 600;
+        color: var(--header__nav);
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .header__top-nav.active .header__nav-link:hover {
+        color: var(--footer-tel-color);
+    }
+
+    .header__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__top-nav {
+        display: flex;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .header__social-list {
+        margin: 0;
+    }
+
+    .header__top-info {
+        display: none;
     }
 
     .header__social-list {
@@ -194,7 +330,7 @@ body.lock {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 0 40px;
     }
 
     .header__nav-link {
@@ -235,7 +371,7 @@ body.lock {
     }
 
     .header__nav-item .header__nav-link:hover::after,
-    .header__nav-item .header__nav-link:focus::after{
+    .header__nav-item .header__nav-link:focus::after {
         transform: translate3d(0, 0, 0);
     }
 
