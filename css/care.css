@@ -7,6 +7,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  .care__main {
+    max-width: 320px;
+  }
+
   .care__image-container {
     max-width: 320px;
     padding-top: 90px;
@@ -214,6 +218,10 @@
 }
 
 @media (min-width: 1200px) {
+  .care__main {
+    max-width: 1200px;
+  }
+
   .care__container {
     margin: auto;
     display: block;
