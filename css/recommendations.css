@@ -72,7 +72,7 @@
   text-decoration: none;
 }
 
-.rec_img_link {
+.rec_img_dogs{
   text-decoration: none;
   font-family: "PT sans", sans-serif;
   font-size: 17px;
@@ -82,7 +82,76 @@
   margin-right: 35px;
 }
 
-.rec_img_link:hover {
+.rec_img_dogs:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_cats{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_cats:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_parrot{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_parrot:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_hamster{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_hamster:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_fish{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_fish:hover {
+  cursor: pointer;
   color: black;
   font-weight: 700;
   transition: all .2s ease;
