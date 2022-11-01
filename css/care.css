@@ -102,11 +102,17 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1199) {
-  .care__image-container {
+@media (min-width: 768px) and (max-width: 1199px) {
+  .care__main {
+    display: flex;
     max-width: 768px;
     padding-top: 90px;
     padding-bottom: 35px;
+  }
+
+  .care__image-container {
+    max-width: 337px;
+    margin-top: 15%;
   }
 
   .care__image-container-img {
@@ -118,10 +124,12 @@
     font-size: 30px;
     font-weight: 700;
     width: 100%;
+    margin-left: 15px;
   }
 
   .care__logo-container {
     padding-top: 5%;
+    margin-left: 15px;
   }
 
   .care__first-paragraph {
@@ -129,17 +137,20 @@
     font-size: 19px;
     font-weight: 400;
     color: rgb(149, 139, 126);
+    margin-left: 15px;
   }
 
   .care__second-paragraph {
-    padding-top: 10%;
+    padding-top: 8%;
     font-size: 17px;
     font-weight: 400;
     color: rgb(142, 142, 142);
+    margin-left: 15px;
   }
 
   .care__list {
-    margin-top: 10%;
+    margin-top: 8%;
+    margin-left: 15px;
   }
 
   .marker {
@@ -156,15 +167,19 @@
   }
 
   .care__advantages {
-    margin-top: 15%;
-    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 10%;
   }
 
   .shipping,
   .returns,
   .payment,
   .support {
-    margin-bottom: 10%;
+    margin-bottom: 8%;
   }
 
   .shipping__img,
