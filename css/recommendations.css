@@ -199,25 +199,34 @@
   /* Dry_Food */
 
 .treats {
-  display: flex;
-  text-align: center;
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
-.for__dogs{
-  font-family: 'Baloo 2';
-  font-weight: 700;
-  font-size: 23px;
-  margin-bottom: 15px;
+@media (min-width: 767px) {
+  .treats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
 }
 
-.for__cats{
-  font-family: 'Baloo 2';
-  font-weight: 700;
-  font-size: 23px;
-  margin-bottom: 15px;
+@media (min-width: 990px) {
+  .treats {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 25px;
+  }
 }
 
-.other_title{
+.food_title{
+  text-align: start;
   font-family: 'Baloo 2';
   font-weight: 700;
   font-size: 23px;
@@ -226,7 +235,7 @@
 
 .price_decorator{
   height: 1px;
-  margin: 7px 0;
+  margin: 25px 0 0 0;
   flex: 1 1;
   background: #3c3731;
   opacity: .2;
@@ -236,10 +245,12 @@
   color: #ed6435;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 65px;
+  
 }
 
-.food__name{
+.food__name-title{
+  display: flex;
+  text-align: start;
   font-family: 'Baloo 2';
   font-weight: 700;
   font-size: 23px;
@@ -289,6 +300,7 @@
 }
 
 .components{
+  text-align: start;
   color: #958b7e;
   font-size: 17px;
   font-weight: 400;
