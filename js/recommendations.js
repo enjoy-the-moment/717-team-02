@@ -6,7 +6,7 @@
             imegeUrl: 'img/pet_inventory.png',
             description: 'DOGGY Fun Set',
             category: 'dogs',
-            price: 6.00,
+            price: '6.00',
         },
         {
             id: '2',
@@ -14,7 +14,7 @@
             imegeUrl: 'img/pet_bed.png',
             description: 'DUNA Pillow Bed',
             category: 'dogs',
-            price: 10.00,
+            price: '10.00',
         },
         {
             id: '3',
@@ -22,7 +22,7 @@
             imegeUrl: 'img/adjustable_leash.png',
             description: 'AGA Retractable Leash',
             category: 'dogs',
-            price: 33.00,
+            price: '33.00',
         },
         {
             id: '4',
@@ -30,7 +30,7 @@
             imegeUrl: 'img/dog_toy.png',
             description: 'DOGGY 2-Bunch Toy',
             category: 'dogs',
-            price: 5.00,
+            price: '5.00',
         },
         {
             id: '5',
@@ -38,7 +38,7 @@
             imegeUrl: 'img/toy_mouse.png',
             description: 'AGA Mice Set',
             category: 'cats',
-            price: 3.00,
+            price: '3.00',
         },
         {
             id: '6',
@@ -46,7 +46,7 @@
             imegeUrl: 'img/feeder_for_cat.png',
             description: 'VITALIFE 2-Bowls Set',
             category: 'cats',
-            price: 9.00,
+            price: '9.00',
         },
         {
             id: '7',
@@ -54,7 +54,7 @@
             imegeUrl: 'img/leash_for_cat.png',
             description: 'AGA Leash & Collar',
             category: 'cats',
-            price: 13.00,
+            price: '13.00',
         },
         {
             id: '8',
@@ -62,7 +62,7 @@
             imegeUrl: 'img/cat_bed.png',
             description: 'DUNA Gray Bed',
             category: 'cats',
-            price: 25.00,
+            price: '25.00',
         },
         {
             id: '9',
@@ -70,7 +70,7 @@
             imegeUrl: 'img/parrot_mirror.png',
             description: 'DORA Hanging Mirror',
             category: 'parrot',
-            price: 14.00,
+            price: '14.00',
         },
         {
             id: '10',
@@ -78,7 +78,7 @@
             imegeUrl: 'img/home_for_parrot.png',
             description: 'VETRA Hanging Nest',
             category: 'parrot',
-            price: 8.00,
+            price: '8.00',
         },
         {
             id: '11',
@@ -86,7 +86,7 @@
             imegeUrl: 'img/parrot_swing.png',
             description: 'DORA Wood Swing',
             category: 'parrot',
-            price: 7.00,
+            price: '7.00',
         },
         {
             id: '12',
@@ -94,7 +94,7 @@
             imegeUrl: 'img/stand_for_parrots.png',
             description: 'OPTY Wooden Stand',
             category: 'parrot',
-            price: 13.00,
+            price: '13.00',
         },
         {
             id: '13',
@@ -102,7 +102,7 @@
             imegeUrl: 'img/collar_for_rabbits.png',
             description: 'SERA Purple Collar',
             category: 'rabbit',
-            price: 2.00,
+            price: '2.00',
         },
         {
             id: '14',
@@ -110,7 +110,7 @@
             imegeUrl: 'img/rabbits_toy.png',
             description: 'AGA Clinking Toy',
             category: 'rabbit',
-            price: 2.00,
+            price: '2.00',
         },
         {
             id: '15',
@@ -118,7 +118,7 @@
             imegeUrl: 'img/rabbit_cage.png',
             description: 'HARNO Rabbit Cage',
             category: 'rabbit',
-            price: 60.00,
+            price: '60.00',
         },
         {
             id: '16',
@@ -126,7 +126,7 @@
             imegeUrl: 'img/rabbit_brush.png',
             description: 'DORA Rabbit Brush',
             category: 'rabbit',
-            price: 10.00,
+            price: '10.00',
         },
         {
             id: '17',
@@ -134,7 +134,7 @@
             imegeUrl: 'img/bowl_for_hamsters.png',
             description: 'AGA Bowl for hamster',
             category: 'hamster',
-            price: 2.00,
+            price: '2.00',
         },
         {
             id: '18',
@@ -142,7 +142,7 @@
             imegeUrl: 'img/toy_wheel.png',
             description: 'TISCO Toy Wheel',
             category: 'hamster',
-            price: 9.00,
+            price: '9.00',
         },
         {
             id: '19',
@@ -150,7 +150,7 @@
             imegeUrl: 'img/balls_for_hamsters.png',
             description: 'STERCO Rainbow Balls',
             category: 'hamster',
-            price: 3.50,
+            price: '3.50',
         },
         {
             id: '20',
@@ -158,7 +158,7 @@
             imegeUrl: 'img/cage_for_hamsters.png',
             description: 'AGA Green Cage',
             category: 'hamster',
-            price: 25.00,
+            price: '25.00',
         },
         {
             id: '21',
@@ -166,7 +166,7 @@
             imegeUrl: 'img/air_pump.png',
             description: 'DUCCA Air Pump',
             category: 'fish',
-            price: 42.00,
+            price: '42.00',
         },
         {
             id: '22',
@@ -174,7 +174,7 @@
             imegeUrl: 'img/aquarium.png',
             description: 'TISCO 50 Liter Aquarium',
             category: 'fish',
-            price: 70.00,
+            price: '70.00',
         },
         {
             id: '23',
@@ -182,7 +182,7 @@
             imegeUrl: 'img/fish_castle.png',
             description: 'VEGA Fish Castle',
             category: 'fish',
-            price: 6.00,
+            price: '6.00',
         },
         {
             id: '24',
@@ -190,7 +190,7 @@
             imegeUrl: 'img/landing_net.png',
             description: 'TISCO Landing Net',
             category: 'fish',
-            price: 4.00,
+            price: '4.00',
         }
     ];
     let currentCategory = 'dogs';
