@@ -76,6 +76,8 @@
   } 
   setTimeout(addPROMOTION,4500);
 }
+
+typePromotion();
 setInterval(typePromotion, 5500);
 
 })();
