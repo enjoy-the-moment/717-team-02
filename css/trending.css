@@ -72,7 +72,7 @@
 }
 
 @media (min-width: 766px) {
-  .trending__cards {
+  .trending__cards-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -84,7 +84,7 @@
 }
 
 @media (min-width: 990px) {
-  .trending__cards {
+  .trending__cards-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px
