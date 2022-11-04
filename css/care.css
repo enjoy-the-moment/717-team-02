@@ -301,11 +301,17 @@
     padding-bottom: 70px;
   }
 
+  .shipping__description,
+  .returns__description,
+  .payment__description,
+  .support__description {
+    width: 300px;
+  }
+
   .shipping__img,
   .returns__img,
   .payment__img,
   .support__img {
-    display: flex;
     float: left;
     background-color: #ffe6d4;
     border-radius: 50%;
