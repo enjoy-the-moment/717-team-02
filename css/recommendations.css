@@ -257,22 +257,11 @@
   margin-bottom: 15px;
 }
 
-
-.for_dogs{
-  display: flex; 
-  flex-direction: column;
-}
-
-.food_components{
-  display: flex;
-  flex-direction: column;
-}
-
 .dog_food_beef_title{
   display: flex;
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .dog_food_chicken_title{
@@ -284,18 +273,6 @@
 }
 
 .cat_food_turkey_title{
-  display: flex;
-}
- 
-.cat_food_tuna__salmon_title {
-  display: flex;
-}
-
-.kodent_food_grain_nuts_title{
-  display: flex;
-}
-
-.fish_food_title{
   display: flex;
 }
 
@@ -316,4 +293,5 @@
 
 .dry_img{
   width: 120px;
+  
 }
