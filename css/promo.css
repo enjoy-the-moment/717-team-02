@@ -8,7 +8,6 @@
     display: block;
     justify-content: center;
     align-items: center;
-    border: 2px green solid;
 }
 
 .promo__flex-container{
@@ -17,16 +16,13 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
-    height: 20em;
-    border: 2px blue solid;
+    height: flex;
 }
 
 .promo__aquariums{
-    display: flex;
     background-image: url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08f464745c80021b0fe49_optimized_1192?nowebp);
     background-size: cover;
     background-position: center bottom;
-    border: 2px red solid;
     margin: 0 1em 0 1em;
     flex-grow: 1;
     justify-content: center;
@@ -39,7 +35,6 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-    border: 2px red solid;
     padding-top: 7%;
     height: 100%; 
 }
@@ -49,10 +44,10 @@
     background-image: url(https://res2.weblium.site/res/60ab502967fbc80021ebe4fb/60b08fd202d4170021078c7e_optimized_1595?nowebp);
     background-size: cover;
     background-position: right center;
-    border: 2px red solid;
     margin: 0 1em 0 1em;
-    flex-grow: 1;
+    flex-grow: 2;
     justify-content: left;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -86,9 +81,8 @@
     }
 
 .promo__picks-content{
-    border: 2px orange solid;
     justify-content: center;
-    margin: auto;
+    margin-left: 35px;
 }
 
 .promo__picks-subtitle{
@@ -140,3 +134,86 @@
     .button-text:hover{
         color: var(--background-color-white);
     }
+
+
+@media (min-width:990px){
+    .promo__flex-container{
+        height: 380px;
+    }
+}
+
+@media(max-width: 750px){
+    .promo__aquariums-text{
+        font-size: 30px;
+    }
+    .promo__picks{
+        height: 323px;
+        width: 100%;
+        margin-top: 2em;
+    }
+}
+
+@media (min-width: 750px){
+    .promo__flex-container{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 430px){
+    .promo__aquariums{
+        height: 225px;
+        width: 100%;
+    } 
+}
+
+@media (min-width: 430px) and (max-width: 750px){
+    .promo__aquariums{
+        height: 193px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 750px) and (max-width:990px){
+    .promo__flex-container{
+        align-content: stretch;
+        height: 340px;
+    
+    }
+}
+
+
+
+
+
+
+.promo__second-block{
+    margin:0 1em;
+    padding: 1.5em 0 3em 0;
+    display: block;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.applaws {
+    background: #ffe6d4;
+}
+.tigerino {
+    background: #ffe6d4;
+}
+.gourmet {
+    background: #ffe6d4;
+}
+.felix {
+    background: #ffe6d4;
+}
+.purizon{
+    background: #ffe6d4;
+}
+.rocco {
+    background: #ffe6d4;
+}
+.dokas {
+    background: #ffe6d4;
+}

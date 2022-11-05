@@ -3,14 +3,12 @@
   max-width: 100%;
   margin: auto;
   padding-top: 90px;
-  padding-bottom: 90px;
-    
+  padding-bottom: 90px; 
 }
 
 .rec{
   text-align: center;
   font-family: 'Baloo 2';
-  font-weight: 700;
   font-size: 55px;
   margin-bottom: 15px;
 }
@@ -22,9 +20,44 @@
   margin-bottom: 15px;
 }
 
+.recommendation_card{
+  width: 50%;
+}
+
 .logo {
   margin-top: 25px;
   text-align: center;
+}
+
+.row {
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+@media (min-width: 767px) {
+  .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
+}
+
+@media (min-width: 990px) {
+  .row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 25px;
+  }
+}
+
+.recommendation-item{
+  margin-right: 15px;
 }
 
 .rec_sub_title {
@@ -39,7 +72,7 @@
   text-decoration: none;
 }
 
-.rec_img_link {
+.rec_img_dogs{
   text-decoration: none;
   font-family: "PT sans", sans-serif;
   font-size: 17px;
@@ -49,7 +82,76 @@
   margin-right: 35px;
 }
 
-.rec_img_link:hover {
+.rec_img_dogs:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_cats{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_cats:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_parrot{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_parrot:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_hamster{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_hamster:hover {
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  transition: all .2s ease;
+}
+
+.rec_img_fish{
+  text-decoration: none;
+  font-family: "PT sans", sans-serif;
+  font-size: 17px;
+  color: #958b7e;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.rec_img_fish:hover {
+  cursor: pointer;
   color: black;
   font-weight: 700;
   transition: all .2s ease;
@@ -97,25 +199,34 @@
   /* Dry_Food */
 
 .treats {
-  display: flex;
-  text-align: center;
+  position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 
-.for__dogs{
-  font-family: 'Baloo 2';
-  font-weight: 700;
-  font-size: 23px;
-  margin-bottom: 15px;
+@media (min-width: 767px) {
+  .treats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
 }
 
-.for__cats{
-  font-family: 'Baloo 2';
-  font-weight: 700;
-  font-size: 23px;
-  margin-bottom: 15px;
+@media (min-width: 990px) {
+  .treats {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 25px;
+  }
 }
 
-.other_title{
+.food_title{
+  text-align: start;
   font-family: 'Baloo 2';
   font-weight: 700;
   font-size: 23px;
@@ -124,7 +235,7 @@
 
 .price_decorator{
   height: 1px;
-  margin: 7px 0;
+  margin: 25px 0 0 0;
   flex: 1 1;
   background: #3c3731;
   opacity: .2;
@@ -134,23 +245,23 @@
   color: #ed6435;
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
+  
 }
 
-.food__name{
+.food__name-title{
+  display: flex;
+  text-align: start;
   font-family: 'Baloo 2';
   font-weight: 700;
   font-size: 23px;
   margin-bottom: 15px;
 }
 
-.for_dogs{
-  display: flex; 
-  flex-direction: column;
-}
-
 .dog_food_beef_title{
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-content: center;
 }
 
 .dog_food_chicken_title{
@@ -164,20 +275,9 @@
 .cat_food_turkey_title{
   display: flex;
 }
- 
-.cat_food_tuna__salmon_title {
-  display: flex;
-}
-
-.kodent_food_grain_nuts_title{
-  display: flex;
-}
-
-.fish_food_title{
-  display: flex;
-}
 
 .components{
+  text-align: start;
   color: #958b7e;
   font-size: 17px;
   font-weight: 400;
@@ -193,4 +293,5 @@
 
 .dry_img{
   width: 120px;
+  
 }

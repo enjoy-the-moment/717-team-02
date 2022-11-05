@@ -6,10 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Store</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
@@ -33,52 +31,63 @@
         <div class="header__wrapper">
             <div class="container">
                 <div class="header__top">
-                    <a class="header__logo-link" href="#">
-                        <img class="header__logo-img" src="img/header/header_logo.svg"
-                            alt="Logo Happy Paw PET SHOW & CARE">
-                    </a>
-                    <button class="header__burger">
-                        <span class="header__burger-line"></span>
-                        <span class="header__burger-line"></span>
-                        <span class="header__burger-line"></span>
-                    </button>
-                    <nav class="header__nav">
-                        <ul class="header__nav-list">
-                            <li class="header__nav-item">
-                                <a class="header__nav-link" href="">About Us</a>
+                    <div class="header__top-logo">
+                        <a class="header__logo-link" href="#">
+                            <img class="header__logo-img" src="img/header/header_logo.svg" alt="Logo Happy Paw PET SHOW & CARE">
+                        </a>
+                        <button class="header__burger">
+                            <span class="header__burger-line"></span>
+                            <span class="header__burger-line"></span>
+                            <span class="header__burger-line"></span>
+                        </button>
+                    </div>
+                    <div class="header__top-nav">
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#about-us">About Us</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#categories_species">Categories</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#trending-product">Best Sellers</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#arrivals_species">New Arrivals</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#store_species">Our Shop</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__top-info">
+                            <p>Working Hours: 08 AM - 08 PM
+                            <p>
+                                Email: <a href="mailto:happypaw@email.com">happypaw@email.com</a>
+                            </p>
+                            <p>
+                                Phone: <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                            </p>
+                        </div>
+                        <ul class="header__social-list">
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/facebook.png" width="30" alt="Facebook">
+                                </a>
                             </li>
-                            <li class="header__nav-item">
-                                <a class="header__nav-link" href="">Categories</a>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/instagram.png" width="30" alt="Instagram">
+                                </a>
                             </li>
-                            <li class="header__nav-item">
-                                <a class="header__nav-link" href="#trending-product">Best Sellers</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a class="header__nav-link" href="">New Arrivals</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a class="header__nav-link" href="">Our Shop</a>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/youtube.png" width="30" alt="Youtube">
+                                </a>
                             </li>
                         </ul>
-                    </nav>
-                    <ul class="header__social-list">
-                        <li class="header__social-item">
-                            <a class="header__social-link" href="" target="_blank">
-                                <img class="header__social-img" src="img/header/facebook.png" width="30" alt="Facebook">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a class="header__social-link" href="" target="_blank">
-                                <img class="header__social-img" src="img/header/instagram.png" width="30"
-                                    alt="Instagram">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a class="header__social-link" href="" target="_blank">
-                                <img class="header__social-img" src="img/header/youtube.png" width="30" alt="Youtube">
-                            </a>
-                        </li>
-                    </ul>
+                    </div>
                 </div>
             </div>
             <div class="header__promo">
@@ -90,7 +99,7 @@
                             <a class="header__promo-btn about-btn" href="">About Us</a>
                         </li>
                         <li class="header__promo-item">
-                            <a class="header__promo-btn categories-btn" href="">Categories</a>
+                            <a class="header__promo-btn categories-btn" href="#categories_species">Categories</a>
                         </li>
                     </ul>
                 </div>
@@ -98,7 +107,7 @@
         </div>
     </header>
     <!-- The end - Header - Bohdan Kariev -->
-    <!-- Start - Any products for any pets - Illia Holovko -->
+    <!-- Start - Advertising (Any products for any pets) - Illia Holovko -->
     <main>
         <div class="advertising">
             <div class="advertising__food">
@@ -106,7 +115,7 @@
                     BUTCHERS, ROYAL CANIN, PEDIGREE</p>
                 <p class="advertising__food-contents">Best-Quality</p>
                 <p class="advertising__food-contents advertising__food-contents-bottom">Food for Pets</p>
-                <a href="#food" class="advertising__food-link">Buy Now</a>
+                <div class="adv-first-food-link"><br><a href="#food" class="advertising__food-link">Buy Now</a></div>
             </div>
             <div class="advertising__discount">
                 <div>
@@ -127,72 +136,18 @@
                 <img class="species__bone-logo" src="img/bone_logo.svg" alt="Bone">
             </div>
             <p class="species__subtitle">Best picks for your beloved companions only in Happy Paw.</p>
-            <div class="species__carousel">
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/rabbit_species.png" alt="Rabbit" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Rabbits<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Treats • Hay • Cages • Litter & Bedding •
-                        Harnesses
-                        • Toys • Odor Removers • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/fish_species.png" alt="Fish" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Fish<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Feeders • Aquariums • Filters & Pumps •
-                        Cleaning
-                        • Water Care • Decor • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/hamster_species.png" alt="Hamster"
-                            class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Hamsters<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Soft & Chewy Treats • Litter • Furniture •
-                        Collars
-                        and Leashes • Bowls • Toys • Beds • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/cat_species.png" alt="Cat" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Cats<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Dry Food • Wet Food • Treats • Catnip & Grass • Litter
-                        Boxes • Bowls & Feeders • Toys • Beds • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/dog_species.png" alt="Dog" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Dogs<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Dry & Canned Food • Jerky • Chewy Treats • Bowls •
-                        Toys
-                        • Collars and Leashes • Clothes • </p>
-                </article>
-                <article class="species_carousel-item">
-                    <div class="species__image-container">
-                        <img width="70" src="img/parrot_species.png" alt="Parrot" class="species__carousel-item-image">
-                    </div>
-                    <h3 class="species__carousel-item-title">For Parrots<span>→</span></h3>
-                    <p class="species__carousel-item-explanation">Food • Treats • Cages & Stands • Vitamins • Bowls &
-                        Feeders • Litter & Nesting • Odor Control • </p>
-                </article>
-            </div>
+            <div class="species__list"></div>
         </section>
-        <!-- The end - Any products for any pets - Illia Holovko -->
+        <!-- The end - Advertising (Any products for any pets) - Illia Holovko -->
         <!-- Begin - We Care About Your Pets And Their Well-Being - Yana Kozhokar-->
-        <section class="care">
+        <section class="care" id="about-us">
             <div class="care__container">
                 <div class="care__main">
                     <div class="care__image-container">
                         <img class="care__image-container-img" src="img/cat_and_parrot.png" alt="cat_and_parrot">
                     </div>
                     <div class="care__description">
-                        <h2 class="care__title">We Care About Your Pets And Their Well-Being</h2>
+                        <h2 class="care__title"></h2>
                         <div class="care__logo-container">
                             <img src="img/bone_logo.svg" width="75" alt="Bone">
                         </div>
@@ -226,35 +181,42 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="care__advantages">
                     <div class="shipping">
                         <div class="shipping__img">
                             <img src="img/car.svg" alt="Car" width="40">
                         </div>
-                        <h4 class="shipping__title">Free Shipping</h4>
+                        <div class="shipping__description">
+                            <h4 class="shipping__title">Free Shipping</h4>
                         <p class="shipping__text">Free shipping on all orders.</p>
+                        </div>
                     </div>
                     <div class="returns">
                         <div class="returns__img">
                             <img src="img/returns.svg" alt="Returns" width="40">
                         </div>
-                        <h4 class="returns__title">10-Day Returns</h4>
+                        <div class="returns__description">
+<h4 class="returns__title">10-Day Returns</h4>
                         <p class="returns__text">Contact us for a return.</p>
+                        </div>
                     </div>
                     <div class="payment">
                         <div class="payment__img">
                             <img src="img/payment.svg" alt="Payment" width="40">
                         </div>
-                        <h4 class="payment__title">Secure Payment</h4>
+                        <div class="payment__description">
+<h4 class="payment__title">Secure Payment</h4>
                         <p class="payment__text">We accept Visa and MasterCard.</p>
+                        </div>
                     </div>
                     <div class="support">
                         <div class="support__img">
                             <img src="img/support.svg" alt="Support" width="40">
                         </div>
-                        <h4 class="support__title">Online Support</h4>
+                        <div class="support__description">
+<h4 class="support__title">Online Support</h4>
                         <p class="support__text">We are always here to help.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -275,57 +237,8 @@
                     <button class="trending__arrow-left">
                         <img src="img/trending/arrow_left.svg" alt="Arrow left">
                     </button>
-                    <article class="trending__card-item">
-                        <a class="trending__img-link" href="#">
-                            <img class="trending__img" src="img/trending/metal_pet_brush.png"
-                                alt="DORA Metal Pet Brush">
-                        </a>
-                        <h4 class="trending__name">
-                            <a class="trending__link-name" href="#">DORA Metal Pet Brush</a>
-                        </h4>
-                        <span class="trending__price">&#36;15,00</span>
-                        <button class="trending__card-btn">Add to card</button>
-                    </article>
-                    <article class="trending__card-item">
-                        <a class="trending__img-link" href="#">
-                            <img class="trending__img" src="img/trending/heaven_set.png" alt="Kitten's Heaven Set">
-                        </a>
-                        <h4 class="trending__name">
-                            <a class="trending__link-name" href="#">Kitten's Heaven Set</a>
-                        </h4>
-                        <span class="trending__price">&#36;12,00</span>
-                        <button class="trending__card-btn">Add to card</button>
-                    </article>
-                    <article class="trending__card-item">
-                        <a class="trending__img-link" href="#">
-                            <img class="trending__img" src="img/trending/opty_pet_carrier.png" alt="OPTY Pet Carrier">
-                        </a>
-                        <h4 class="trending__name">
-                            <a class="trending__link-name" href="#">OPTY Pet Carrier</a>
-                        </h4>
-                        <span class="trending__price">&#36;8,00</span>
-                        <button class="trending__card-btn">Add to card</button>
-                    </article>
-                    <article class="trending__card-item">
-                        <a class="trending__img-link" href="#">
-                            <img class="trending__img" src="img/trending/rope_toy.png" alt="AGA Rope Toy">
-                        </a>
-                        <h4 class="trending__name">
-                            <a class="trending__link-name" href="#">AGA Rope Toy</a>
-                        </h4>
-                        <span class="trending__price">&#36;5,00</span>
-                        <button class="trending__card-btn">Add to card</button>
-                    </article>
-                    <article class="trending__card-item">
-                        <a class="trending__img-link" href="#">
-                            <img class="trending__img" src="img/trending/dora_pet_carrier.png" alt="DORA Pet Carrier">
-                        </a>
-                        <h4 class="trending__name">
-                            <a class="trending__link-name" href="#">DORA Pet Carrier</a>
-                        </h4>
-                        <span class="trending__price">&#36;23,00</span>
-                        <button class="trending__card-btn">Add to card</button>
-                    </article>
+                    <div class="trending__cards-wrapper">
+                    </div>                    
                     <button class="trending__arrow-right">
                         <img src="img/trending/arrow_right.svg" alt="Arrow right">
                     </button>
@@ -364,13 +277,13 @@
                 <!--brands-->
                 <div class="promo__second-block">
                     <!--promo second-->
-                    <img width="60" src="img/producents/product.png" alt="aplaws">
-                    <img width="60" src="img/producents/product1.png" alt="tigerino">
-                    <img width="60" src="img/producents/product2.png" alt="gourmet">
-                    <img width="60" src="img/producents/product3.png" alt="felix">
-                    <img width="60" src="img/producents/product4.png" alt="purizon">
-                    <img width="60" src="img/producents/product5.png" alt="rocco">
-                    <img width="60" src="img/producents/product6.png" alt="dokas">
+                    <img width="60" src="img/producents/product.png" div class="applaws">
+                    <img width="60" src="img/producents/product1.png" div class="tigerino">
+                    <img width="60" src="img/producents/product2.png" div class="gourmet">
+                    <img width="60" src="img/producents/product3.png" div class="felix">
+                    <img width="60" src="img/producents/product4.png" div class="purizon">
+                    <img width="60" src="img/producents/product5.png" div class="rocco">
+                    <img width="60" src="img/producents/product6.png" div class="dokas">
                 </div>
             </div>
         </section>
@@ -485,472 +398,14 @@
                     Shop the best products for your pets with affordable prices only in the Happy Paw online store.
                 </p>
             </div>
-
             <h3 class="pet_categories">
-                <a class="rec_img_link" href="#">For Dogs</a>
-                <a class="rec_img_link" href="#">For Cats</a>
-                <a class="rec_img_link" href="#">For Parrots</a>
-                <a class="rec_img_link" href="#">For Rabbits</a>
-                <a class="rec_img_link" href="#">For Hamsters</a>
-                <a class="rec_img_link" href="#">For Fish</a>
+                <span class="rec_img_dogs">For Dogs</span>
+                <span class="rec_img_cats">For Cats</span>
+                <span class="rec_img_parrot">For Parrots</span>
+                <span class="rec_img_hamster">For Hamsters</span>
+                <span class="rec_img_fish">For Fish</span>
             </h3>
-
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/pet_inventory.png" alt="Doggy Set">
-                            <div class="rec_name">
-                                <p>
-                                    DOGGY Fun Set
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $6,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/pet_bed.png" alt="Bed for your Doggy">
-                            <div class="rec_name">
-                                <p>
-                                    DUNA Pillow Bed
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $10,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/adjustable_leash.png" alt="Аdjustable_leash">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Retractable Leash
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $33,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/dog_toy.png" alt="Toy for your doggy">
-                            <div class="rec_name">
-                                <p>
-                                    DOGGY 2-Bunch Toy
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $5,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/toy_mouse.png" alt="Mice set">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Mice Set
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $3,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/feeder_for_cat.png" alt="feeder for your cat">
-                            <div class="rec_name">
-                                <p>
-                                    VITALIFE 2-Bowls Set
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $9,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/leash_for_cat.png" alt="Leash for your cat">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Leash &amp; Collar
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $13,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/cat_bed.png" alt="Bed for your cat">
-                            <div class="rec_name">
-                                <p>
-                                    DUNA Gray Bed
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $25,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/parrot_mirror.png" alt="Mirror for your parrot">
-                            <div class="rec_name">
-                                <p>
-                                    DORA Hanging Mirror
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $14,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/home_for_parrot.png" alt="Home for your parrot">
-                            <div class="rec_name">
-                                <p>
-                                    VETRA Hanging Nest
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $8,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/parrot_swing.png" alt="Swing for your parrot">
-                            <div class="rec_name">
-                                <p>
-                                    DORA Wood Swing
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $7,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/stand_for_parrots.png" alt="Stand for your cat">
-                            <div class="rec_name">
-                                <p>
-                                    OPTY Wooden Stand
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $13,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/collar_for_rabbits.png" alt="Collar for your rabbit">
-                            <div class="rec_name">
-                                <p>
-                                    SERA Purple Collar
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $2,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/rabbits_toy.png" alt="Toy for your rabbit">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Clinking Toy
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $2,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/rabbit_cage.png" alt="Cage for your rabbit">
-                            <div class="rec_name">
-                                <p>
-                                    HARNO Rabbit Cage
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $60,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/rabbit_brush.png" alt="Brush for your rabbit">
-                            <div class="rec_name">
-                                <p>
-                                    DORA Rabbit Brush
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $10,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/bowl_for_hamsters.png" alt="Bowl for your rabbit">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Bowl for Hamsters
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $2,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/toy_wheel.png" alt="Toy wheel for your hamster">
-                            <div class="rec_name">
-                                <p>
-                                    TISCO Toy Wheel
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $9,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/balls_for_hamsters.png" alt="Toy balls for your hamster">
-                            <div class="rec_name">
-                                <p>
-                                    STERCO Rainbow Balls
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $3,50
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/cage_for_hamsters.png" alt="Cage for your hamster">
-                            <div class="rec_name">
-                                <p>
-                                    AGA Green Cage
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $25,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/air_pump.png" alt="Air pump">
-                            <div class="rec_name">
-                                <p>
-                                    DUCCA Air Pump
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $42,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/aquarium.png" alt="aquarium">
-                            <div class="rec_name">
-                                <p>
-                                    TISCO 50 Liter Aquarium
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $70,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/fish_castle.png" alt="Castle for your fish">
-                            <div class="rec_name">
-                                <p>
-                                    VEGA Fish Castle
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $6,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-                        <a class="recommendation_card_link" href="#">
-                            <img width="100" src="img/landing_net.png" alt="Landing net">
-                            <div class="rec_name">
-                                <p>
-                                    TISCO Landing Net
-                                </p>
-                            </div>
-                        </a>
-                        <div class="rec_price">
-                            <p>
-                                $4,00
-                            </p>
-                        </div>
-                        <button class="rec_button">
-                            Add to Cart
-                        </button>
-                    </div>
-                </div>
-            </div>
+            <div class="row"></div>
             <img src="img/cat_with_toy.png" class="cat_with_toy" alt="Promo">
         </section>
         <!-- End 'Top Recommendations' -->
@@ -1026,163 +481,158 @@
             <p class="rec_sub_title">
                 Great well-balanced dry and canned food for your pets by the best producers.
             </p>
-
-            <div class="treats">
-                <div class="for_dogs">
-                    <h3 class="for__dogs">
+            <article class="treats">
+                <article class="for_dogs">
+                    <h3 class="food_title">
                         For Dogs
                     </h3>
                     <div class="dog_food_beef_title">
-                        <img width="150" src="img/dog_food_beef.png" alt="dog food (beef)">
-                        <div class="food__name">
-                            <h4>
-                                Natural Beef
-                            </h4>
+                        <img class="dry_img" src="img/dog_food_beef.png" alt="dog food (beef)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Natural Beef
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$2</p>
+                            </div>
+                            <div class="components">
+                                Meat And Bone Meal, Corn Gluten Meal, Animal Fat, Soybean Meal, Natural Flavor.
+                            </div>
                         </div>
-                        <div class="food__price">
-                            $2
-                        </div>
-                    </div>
-                    <div class="components">
-                        Meat And Bone Meal, Corn Gluten Meal, Animal Fat, Soybean Meal, Natural Flavor.
-                    </div>
-
+                    </div>    
                     <div class="dog_food_chicken_title">
-                        <img width="150" src="img/dog_food_chicken.png" alt="dog food (chicken)">
-                        <div class="food__name">
-                            <h4>
-                                Natural Chicken
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $3
+                        <img class="dry_img" src="img/dog_food_chicken.png" alt="dog food (chicken)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Natural Chicken
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$3</p>
+                            </div>
+                            <div class="components">
+                                Deboned Chicken, Chicken Meal, Brown Rice, Corn, Corn Gluten Meal, Natural Flavor.
+                            </div>
                         </div>
                     </div>
-                    <div class="components">
-                        Deboned Chicken, Chicken Meal, Brown Rice, Corn, Corn Gluten Meal, Natural Flavor.
-                    </div>
-
                     <div class="dog_food_pork_title">
-                        <img width="150" src="img/dog_food_pork.png" alt="dog_food_(pork)">
-                        <div class="food__name">
-                            <h4>
-                                Natural Pork
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $2
+                        <img class="dry_img" src="img/dog_food_pork.png" alt="dog_food_(pork)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Natural Pork
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$2</p>
+                            </div>
+                            <div class="components">
+                                Deboned Lamb, Chicken Meal, Split Peas, Lentils, Chicken Fat, Pork Meal, Dried Chicken, Pea.
+                            </div>
                         </div>
                     </div>
-                    <div class="components">
-                        Deboned Lamb, Chicken Meal, Split Peas, Lentils, Chicken Fat, Pork Meal, Dried Chicken, Pea.
-                    </div>
-
-                </div>
-                <div class="for_cats">
-                    <h3 class="for__cats">
+                </article>
+                <article class="for_cats">
+                    <h3 class="food_title">
                         For Cats
                     </h3>
-
-                    <div class="cat_food_turkey_title">
-                        <img width="150" src="img/cat_food_turkey.png" alt="cat food (turkey)">
-                        <div class="food__name">
-                            <h4>
-                                Turkey Pate
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $1
-                        </div>
-                    </div>
-                    <div class="components">
-                        Deboned Turkey, Turkey Broth, Turkey Liver, Dried Egg Product, Cranberries, Calcium Carbonate.
-                    </div>
-
-                    <div class="cat_food_tuna__salmon_title">
-                        <img width="150" src="img/cat_food_tuna_salmon.png" alt="cat food (tuna & salmon)">
-
-                        <div class="food__name">
-                            <h4>
-                                Tuna & Salmon
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $2
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/cat_food_turkey.png" alt="cat food (turkey)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Turkey Pate
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$1</p>
+                            </div>
+                            <div class="components">
+                                Deboned Turkey, Turkey Broth, Turkey Liver, Dried Egg Product, Cranberries, Calcium Carbonate.
+                            </div>
                         </div>
                     </div>
-                    <div class="components">
-                        Chicken, Poultry Broth, Liver, Meat By-Products, Salmon, Tuna, Guar Gum, Minerals.
-                    </div>
-
-
-                    <img width="150" src="img/cat_food_chicken.png" alt="cat food (chicken)">
-                    <div class="cat_food_(chicken)_title">
-                        <div class="food__name">
-                            <h4>
-                                Chicken Slice
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $1
-                        </div>
-                        <div class="components">
-                            Wheat Gluten, Liver, Chicken, Meat By-Products, Tomatoes, Carrots, Shrimp, Soy Flour, Salt.
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/cat_food_tuna_salmon.png" alt="cat food (tuna & salmon)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Tuna & Salmon
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$2</p>
+                            </div>
+                            <div class="components">
+                                Chicken, Poultry Broth, Liver, Meat By-Products, Salmon, Tuna, Guar Gum, Minerals.
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="other">
-                    <h3 class="other">
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/cat_food_chicken.png" alt="cat food (chicken)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Chicken Slice
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$1</p>
+                            </div>
+                            <div class="components">
+                                Wheat Gluten, Liver, Chicken, Meat By-Products, Tomatoes, Carrots, Shrimp, Soy Flour, Salt.
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="other">
+                    <h3 class="food_title">
                         Other
                     </h3>
-
-                    <div class="kodent_food_grain_nuts_title">
-                        <img width="150" src="img/kodent_food_grain_nuts.png" alt="kodent food (grain & nuts)">
-
-                        <div class="food__name">
-                            <h4>
-                                Grain & Nuts
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $3
-                        </div>
-                    </div>
-                    <div class="components">
-                        Whole Brown Rice, Oat Groats, Wheat Bran, Wheat, Soybean Meal, Soybean Hulls.
-                    </div>
-
-                    <div class="fish_food_title">
-                        <img width="150" src="img/fish_food.png" alt="fish food">
-                        <div class="food__name">
-                            <h4>
-                                Fish Food
-                            </h4>
-                        </div>
-                        <div class="food__price">
-                            $5
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/kodent_food_grain_nuts.png" alt="kodent food (grain & nuts)">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Grain & Nuts
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$3</p>
+                            </div>
+                            <div class="components">
+                                Whole Brown Rice, Oat Groats, Wheat Bran, Wheat, Soybean Meal, Soybean Hulls.
+                            </div>
                         </div>
                     </div>
-                    <div class="components">
-                        Dried Yeast, Ground Brown Rice, Shrimp Meal, Dried Fish Protein Digest, Wheat Gluten.
-                    </div>
-
-                    <div class="parrots_food_title">
-                        <img width="150" src="img/parrots_food.png" alt="parrots food">
-                        <div class="food__name">
-                            <h4>
-                                Parrots Food
-                            </h4>
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/fish_food.png" alt="fish food">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Fish Food
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$5</p>
+                            </div>
+                            <div class="components">
+                                Dried Yeast, Ground Brown Rice, Shrimp Meal, Dried Fish Protein Digest, Wheat Gluten.
+                            </div>
                         </div>
-                        <div class="food__price">
-                            $7
-                        </div>
                     </div>
-                    <div class="components">
-                        Canary Grass Seed, White Millet, Oat Groats, Ground Corn, Red Millet, Flax Seed.
+                    <div class="dog_food_pork_title">
+                        <img class="dry_img" src="img/parrots_food.png" alt="parrots food">
+                        <div class="food_components">
+                            <div class="food__name-title">
+                                <h4>
+                                    Parrots Food
+                                </h4>
+                                <div class="price_decorator"></div>
+                                <p class="food__price">$7</p>
+                            </div>
+                            <div class="components">
+                                Canary Grass Seed, White Millet, Oat Groats, Ground Corn, Red Millet, Flax Seed.
+                            </div>
+                        </div>   
                     </div>
-
-                </div>
-            </div>
+                </article>
+            </article>
         </section>
     </main>
     <!-- End 'Dry Food & Treats' -->
@@ -1244,10 +694,11 @@
                     <span class="footer__text-link-arrow">→</span></a>
             </div>
             <div class="footer__upmenu-form">
-                <form class="footer__email" id="contacts_species">
-                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email*"
+                <form class="footer__email" id="contacts_species" action="https://formspree.io/f/xwkzrzyw" method="POST">
+                    <input class="footer__email-item footer__email-get" type="email" placeholder="Enter your email (Formspree)"
                         required name="email">
-                    <a class="footer__email-link footer__email-item" href="#">Submit</a>
+                    <button class="footer__email-link footer__email-item">Subscribe</button>
+                    <p id="contact-form-status"></p>
                 </form>
             </div>
         </div>
@@ -1317,10 +768,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-    <script src="js/promotion.js"></script>
-    <script src="js/arrivals.js"></script>
+    <script src = "js/promotion.js"></script>
     <script src="js/footer.js"></script>
-    <script src="js/advertising.js"></script>
+    <script src="js/advertising-list.js"></script>
+    <script src="nodeJS/footer/server.js"></script>
+    <script src="nodeJS/footer/contact-form-node.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/recommendations.js"></script>
+    <script src="js/trending-list.js"></script>
+    <script src="js/care.js"></script>
 </body>
 
 </html>
