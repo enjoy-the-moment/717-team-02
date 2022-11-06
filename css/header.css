@@ -20,9 +20,9 @@ body.lock {
 
 .header__wrapper {
     background-image: url("../img/header/dog _with_toys.png");
-    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 29.69% 27.72%;
 }
 
 .header__top {
@@ -213,6 +213,7 @@ body.lock {
 
 .categories-btn {
     display: flex;
+    height: 50px;
     align-items: center;
     color: var(--button-text);
     border: 1px solid var(--button-text);
@@ -223,7 +224,7 @@ body.lock {
     background-color: var(--button-text);
 }
 
-.categories-btn span {
+.categories-btn svg {
     width: 24px;
     height: 24px;
     margin-left: 10px;
