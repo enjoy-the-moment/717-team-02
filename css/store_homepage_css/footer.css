@@ -39,9 +39,13 @@ footer {
 }
 
 .footer__top-link-social-media {
-    margin-right: 10px;
-    margin-bottom: 30px;
+    width: 30px;
     margin: 10px 10px 30px 0;
+}
+
+.footer__top-link-social-media:hover {
+    background-color: var(--text-color-header-price-btn);
+    border-radius: 50%
 }
 
 .footer__nav {
@@ -75,6 +79,7 @@ footer {
         width: 80px;
     }
 }
+
 .footer__nav-subtitle {
     color: var(--text-color-header);
     font-size: 22px;
@@ -99,4 +104,44 @@ footer {
 .footer__menu-item a:hover {
     color: var(--text-color-header);
     text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .footer nav {
+        margin-top: -30px;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+    .footer__top {
+        max-width: 200px;
+    }
+
+    .footer__nav-subtitle {
+        font-size: 20px;
+    }
+
+    .footer__nav-item {
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    .footer__menu {
+        align-items: flex-start
+    }
+    .footer__menu-item {
+        margin-top: 8px;
+    }
+}
+@media (min-width: 900px) {
+    .footer__nav-subtitle {
+        font-size: 25px;
+    }
 }

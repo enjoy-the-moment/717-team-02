@@ -57,8 +57,12 @@
     }
 }
 
-.arrivals__carousel {
+.arrivals__container {
     position: relative;
+}
+
+.arrivals__carousel {
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,6 +146,7 @@
     position: absolute;
     width: 30px;
     height: 30px;
+    top: 50%;
     background-color: var(--arrivals-trending__btn-left-right-bg-color);
     border-radius: 50%;
     border: none;
@@ -169,8 +174,10 @@
 .arrivals__carousel-btn-left {
 
     left: 0;
+
 }
 
 .arrivals__carousel-btn-right {
     right: 0;
+
 }

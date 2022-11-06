@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+(function () {
+  const fclockContainer = document.querySelector(".footer__clock");
+  fclockContainer.innerText = new Date().toLocaleTimeString();
+  function fupdateTime() {
+    fclockContainer.innerText = new Date().toLocaleTimeString();
+  }
+
+  setInterval(fupdateTime, 1000);
+})();
+=======
 
 (function() {
 
@@ -45,3 +56,4 @@
     form.addEventListener("submit", handleSubmit);
 
 })();
+>>>>>>> 5a3fd427efdcc3b3919acd0419ef04f6192efe4e
