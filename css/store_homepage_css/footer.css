@@ -136,12 +136,14 @@ footer {
     .footer__menu {
         align-items: flex-start
     }
+
     .footer__menu-item {
         margin-top: 8px;
     }
 }
+
 @media (min-width: 900px) {
     .footer__nav-subtitle {
         font-size: 25px;
-    } 
+    }
 }

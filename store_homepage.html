@@ -12,44 +12,87 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="header__contact">
-                <p class="header__contact-working-hours">Working Hours: 08 AM - 08 PM</p>
-                <div class="header__contact-details">
-                    <p class="header__contact-details-email">Email:<a
-                            href="mailto:happypaw@email.com">happypaw@email.com</a>
-                    </p>
-                    <p class="header__contact-details-phone">Phone: <a href="tel:+12345678900">+1 (234) 567 89 00</a>
-                    </p>
+        <div class="header__upper">
+            <div class="container">
+                <div class="header__upper-wrapper">
+                    <p class="header__upper-working">Working Hours: 08 AM - 08 PM</p>
+                    <div class="header__upper-contacts">
+                        <p class="header__upper-email">
+                            Email: <a href="mailto:happypaw@email.com">happypaw@email.com</a>
+                        </p>
+                        <p class="header__upper-tel">
+                            Phone: <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <a href="#">
-                <img width="182" src="img/happy_paw.svg" alt="Happy Pow logo"></a>
-            <nav class="header__nav">
-
-                <ul class="header__nav-menu">
-                    <li class="header__nav-menu-item"><a href="index.html/#about_species">About Us</a></li>
-                    <li class="header__nav-menu-item"><a href="#categories_species">Categories</a></li>
-                    <li class="header__nav-menu-item"><a href="#trending-product">Best Sellers</a></li>
-                    <li class="header__nav-menu-item"><a href="#arrivals_species">New Arrivals</a></li>
-                    <li class="header__nav-menu-item"><a href="#store_species">Our Shop</a></li>
-                </ul>
-                <div class="header__socials">
-                    <a class="header__socials-items-link" href="https://www.facebook.com/" target="_blank">
-                        <img src="img/socials/facebook-icon.svg" alt="Facebook icon">
-                    </a>
-
-                    <a class="header__socials-items-link" href="https://www.instagram.com/" target="_blank">
-                        <img src="img/socials/instagram-icon.svg" alt="Instagram icon">
-                    </a>
-
-                    <a class="header__socials-items-link" href="https://www.youtube.com/" target="_blank">
-                        <img src="img/socials/youtube-icon.svg" alt="YouTube icon">
-                    </a>
-
-                </div>
-            </nav>
         </div>
+        <div class="header__wrapper">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__top-logo">
+                        <a class="header__logo-link" href="#">
+                            <img class="header__logo-img" src="img/header/header_logo.svg"
+                                alt="Logo Happy Paw PET SHOW & CARE">
+                        </a>
+                        <button class="header__burger">
+                            <span class="header__burger-line"></span>
+                            <span class="header__burger-line"></span>
+                            <span class="header__burger-line"></span>
+                        </button>
+                    </div>
+                    <div class="header__top-nav">
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#about-us">About Us</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#categories_species">Categories</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#trending-product">Best Sellers</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#arrivals_species">New Arrivals</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a class="header__nav-link" href="#store_species">Our Shop</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="header__top-info">
+                            <p>Working Hours: 08 AM - 08 PM
+                            <p>
+                                Email: <a href="mailto:happypaw@email.com">happypaw@email.com</a>
+                            </p>
+                            <p>
+                                Phone: <a href="tel:+1(234)5678900">+1 (234) 567 89 00</a>
+                            </p>
+                        </div>
+                        <ul class="header__social-list">
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/facebook.png" width="30"
+                                        alt="Facebook">
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/instagram.png" width="30"
+                                        alt="Instagram">
+                                </a>
+                            </li>
+                            <li class="header__social-item">
+                                <a class="header__social-link" href="" target="_blank">
+                                    <img class="header__social-img" src="img/header/youtube.png" width="30"
+                                        alt="Youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     </header>
 
     <main>
@@ -315,8 +358,9 @@
             </article>
         </div>
         <div class="products-selector">
-            <p class="products-selector__per-page">Products per page::</p>
-            <p class="products-selector__num-page">1</p>
+            <p class="products-selector__page">Page:</p>
+            <button class="products-selector__num-page">1</button>
+            <button class="products-selector__num-page">2</button>
         </div>
     </main>
 
@@ -375,6 +419,7 @@
             </nav>
         </div>
     </footer>
+    <script src="js/burger-menu.js"></script>
 </body>
 
 </html>

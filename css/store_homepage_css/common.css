@@ -14,7 +14,11 @@
     --bg-color-btn: #ffe6d4;
     --text-color-btn-hover: #45c1c7;
     --bg-color-btn-hover: #b2e7e9;
-    --bg-color-header-footer: #faf4f2;    
+    --bg-color-header-footer: #faf4f2;
+    --burger-line-color: #222222;
+    --background-color-rose: #faf4f2; 
+    --header__nav: #6b6b6b;
+    --header__upper-line: #f2e8e4;
 }
 
 .container {
