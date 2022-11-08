@@ -155,6 +155,7 @@
   border-radius: 50%;
   width: 32px;
   height: 32px;
+  flex-shrink: 0;
 }
 
 .products-carousel__prev > img,
