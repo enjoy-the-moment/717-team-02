@@ -6,7 +6,7 @@
     border: none;
     cursor: pointer;
     color: var(--text-color-header-price-btn);
-    background-color: var(--bg-color-btn) ;
+    background-color: var(--bg-color-btn);
     border-radius: 30px;
     transition: color .4s ease-in;
 }
