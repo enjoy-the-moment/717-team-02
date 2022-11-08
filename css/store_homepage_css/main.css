@@ -100,7 +100,8 @@ h2 {
     font-weight: 550;
 }
 
-.products-selector__num-page {
+.products-selector__num-page-first,
+.products-selector__num-page-second {
     background: none;
     margin: 5px;
     cursor: pointer;
@@ -111,7 +112,8 @@ h2 {
     transition: all 0.1s;
 }
 
-.products-selector__num-page:hover {
+.products-selector__num-page-first:hover,
+.products-selector__num-page-second:hover {
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color-btn-hover);
