@@ -1,120 +1,165 @@
-* {
-    padding: 0px;
-    margin: 0px;
+.carousel-reviews {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
 
-.reviews__main {
-    width: 1188px;
-    height: 887px;
-    margin:0 auto;
-    padding: 50px 0px 120px 0px;
-
+@media (min-width: 768px) {
+  .carousel-reviews {
+    padding-top: 50px;
+    padding-bottom: 105px;
+  }
 }
 
-.reviews {
-    width: 1188px;
-    height: 717px;
-    display: flex;
-    padding: 0px 40px 0px 40px;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0px 40px 0px 40px;
-    margin: 0px;
+@media (min-width: 992px) {
+  .carousel-reviews {
+    padding-top: 50px;
+    padding-bottom: 120px;
+  }
 }
 
-.reviews__header {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 163px;
+.carousel-reviews__head {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
 }
 
-.reviews__header-title {
-    
-    height: 63px;
-     font-size: 33.5px; 
-    color: #3c3731;
-    font-weight: 700;
-    line-height: 1.2;
-    font-family: 'Baloo 2', cursive;
-    text-transform: none;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
+.carousel-reviews__title {
+  font-family: "Baloo 2", cursive;
+  color: #3c3731;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
 }
 
-.reviews__header-image {
-   font-weight: 32px;
-    height: 32px; 
+.carousel-reviews__bone {
+  width: 75px;
+  margin: 10px auto 0;
 }
 
-.reviews__header-p {
-    font-size: 18px;
-    line-height: 1.4444;
-    font-family: "PT Sans",sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 0;
-    color: #958b7e;
-    text-transform: none;
-    height: 23.5px;
+.carousel-reviews__subtitle {
+  font-family: "PT sans", sans-serif;
+  font-size: 19px;
+  color: #958b7e;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.reviews__body {
-    display: flex;
-    flex-direction:row;
-    text-align: center;
-    justify-content: space-between;
-    padding: 0px 15px 0px 15px;
+@media (max-width: 600px) {
+  .carousel-reviews__body-person-img > img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .carousel-reviews__body-person-name {
+    font-size: 22px !important;
+  }
 }
 
-.reviews__body-person {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    align-content: center;
-    width: 336px;
+@media (max-width: 768px) {
+  .carousel-reviews__title {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .carousel-reviews__head {
+    font-size: 44px;
+  }
+}
+@media (min-width: 600px) {
+  .carousel-reviews__body-person {
     height: 500px;
-    border: 2px solid #ffe6d4;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-reviews__head {
+    font-size: 50px;
+  }
+
+  .carousel-reviews__body-person {
+    max-width: 336px;
+    height: 500px;
+  }
 }
 
-.reviews__body-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
-    
+.carousel-reviews__body {
+  display: flex;
+  justify-content: space-evenly;
+
+  vertical-align: baseline;
 }
 
-.reviews__body-name {
-    font-size: 24px;
-    height: 38.5px;
-
-
+.carousel-reviews__body-person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #ffe6d4;
 }
 
-.reviews__body-animal{
-    font-size: 15px;
-    height: 19.5px;
-    color: #ed6435!important;
+.carousel-reviews__body-person-img > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 }
 
-.reviews__body-text {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 17px;
-    vertical-align: baseline;
-    font-style: italic;
-    color: rgb(142,142,142);
-    height: 103.59px;
-    text-align:center;
-    
+.carousel-reviews__body-person-name {
+  color: #3c3731;
+  font-family: "Baloo 2", cursive;
+  font-size: 21px;
 
+  text-align: center;
 }
 
-.reviews__body-date {
-    font-size: 15px;
-    height: 19.5px;
+.carousel-reviews__body-person-pet {
+  color: #ed6435 !important;
+  font-size: 15px;
+
+  text-align: center;
+}
+
+.carousel-reviews__body-person-p {
+  color: rgb(142, 142, 142);
+  text-align: center;
+  font-size: 17px;
+  width: auto;
+  padding: 0 5px;
+}
+
+.carousel-reviews__body-person-date > p {
+  color: #3c3731 !important;
+  font-size: 15px;
+
+  text-align: center;
+}
+
+.products-carousel {
+  display: flex;
+  justify-content: center;
+}
+
+.products-carousel__slide-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.products-carousel__prev,
+.products-carousel__next {
+  align-self: center;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
+.products-carousel__prev > img,
+.products-carousel__next > img {
+  width: 20px;
 }
