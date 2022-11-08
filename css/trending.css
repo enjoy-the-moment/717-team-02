@@ -89,7 +89,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px
   }
-} 
+}
 
 .trending__img {
   width: 100%;
@@ -129,12 +129,12 @@
   cursor: pointer;
 
   margin-top: 24px;
+  transition: all .2s ease;
 }
 
 .trending__card-btn:hover {
   background-color: #FFE6D4;
   color: #ED6435;
-  transition: all .2s ease;
 }
 
 .trending__arrow-left,
@@ -151,4 +151,24 @@
 
 .trending__arrow-right {
   right: 0;
+}
+
+@media (min-width: 768px) {
+  .trending__arrow-left {
+    left: -10px;
+  }
+
+  .trending__arrow-right {
+    right: -10px;
+  }
+}
+
+@media (min-width: 991px) {
+  .trending__arrow-left {
+    left: -25px;
+  }
+
+  .trending__arrow-right {
+    right: -25px;
+  }
 }
