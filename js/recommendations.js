@@ -201,7 +201,7 @@
         for (const product of filteredProducts) {
             productsContainer.innerHTML += `
             <div class="recommendation-item">
-                <a class="recommendation_card_link" href="#">
+                <a class="recommendation_card_link" href="store_homepage.html">
                     <img class="recommendation_card" 
                     src="${product.imegeUrl}" 
                     alt="${product.title}">
